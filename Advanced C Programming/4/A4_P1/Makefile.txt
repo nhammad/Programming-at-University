@@ -1,0 +1,31 @@
+all: use_linked_list
+
+use_linked_list: linked_list.o use_linked_list.o
+    gcc -Wall -o use_linked_list use_linked_list.o linked_list.o 
+    
+linked_list.o: linked_list.h linked_list.c
+    gcc -Wall -c linked_list.c
+
+use_linked_list.o: linked_list.h use_linked_list.c
+    gcc -Wall -c use_linked_list.c
+    
+compileonly: linked_list.o use_linked_list.o
+
+deleteofiles:
+    rm -f *.o
+    
+deleteexec:
+    rm -f use_linked_list    
+
+deleteall: deleteexec deleteofiles
+
+createdir:
+    mkdir test_directory
+
+deletedir:
+    rmdir test_directory
+
+# *.o means: all files which have .o 
+#at the end
+#mkdir=make a directory
+#rmdir=remove a directory
