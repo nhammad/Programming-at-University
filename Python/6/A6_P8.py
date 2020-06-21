@@ -1,6 +1,6 @@
 # JTSK-350111
 # a6_p8.py
-# Neeha Hammad
+# nhammad
 # n.hammad@jacobs-university.de
  
 dict={"merry":"god", "christmas":"jul", "and":"och", "happy":"gott",

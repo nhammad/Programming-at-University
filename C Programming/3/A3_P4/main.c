@@ -1,7 +1,7 @@
 /*
 JTSK-320111
 a3 p4.c
-Neeha Hammad
+nhammad
 n.hammad@jacobs-university.de
 */
 

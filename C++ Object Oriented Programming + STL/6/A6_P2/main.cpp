@@ -1,7 +1,7 @@
 /*
 CH08-320143
 a6_p2.cpp
-Neeha Hammad
+nhammad
 n.hammad@jacobs-university.de
 */
 

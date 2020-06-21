@@ -1,7 +1,7 @@
 /*
 CH08-320142
 a1_p1.cpp
-Neeha Hammad
+nhammad
 n.hammad@jacobs-university.de
 */
 #include <iostream>

@@ -1,6 +1,6 @@
 # JTSK-350111
 # a4_p3.py
-# Neeha Hammad
+# nhammad
 # n.hammad@jacobs-university.de
  
 def to_liter(gallon, cups):

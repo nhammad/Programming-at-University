@@ -1,6 +1,6 @@
 # JTSK-350111
 # a4_p5.py
-# Neeha Hammad
+# nhammad
 # n.hammad@jacobs-university.de
  
 #only imports pi so

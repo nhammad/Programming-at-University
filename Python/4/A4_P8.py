@@ -1,6 +1,6 @@
 # JTSK-350111
 # a4_p8.py
-# Neeha Hammad
+# nhammad
 # n.hammad@jacobs-university.de
  
 def count_vowels(s):

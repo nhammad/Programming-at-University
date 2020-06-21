@@ -1,6 +1,6 @@
 # JTSK-350111
 # a4_p11.py
-# Neeha Hammad
+# nhammad
 # n.hammad@jacobs-university.de
  
 #inputting values:

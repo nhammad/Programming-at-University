@@ -1,6 +1,6 @@
 # JTSK-350111
 # a5_p5.py
-# Neeha Hammad
+# nhammad
 # n.hammad@jacobs-university.de
  
 def add(lst, val):

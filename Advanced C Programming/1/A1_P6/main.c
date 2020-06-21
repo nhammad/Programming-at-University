@@ -1,7 +1,7 @@
 /*
 JTSK-320112
 al_p6.c
-Neeha Hammad
+nhammad
 n.hammad@jacobs-university.de
 */
 #include <stdio.h>

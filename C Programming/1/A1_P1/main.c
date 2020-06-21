@@ -3,7 +3,7 @@
 /*
 JTSK-320111
 al_pl.c
-Neeha Hammad
+nhammad
 n.hammad@jacobs-university.de
 */
 int main()

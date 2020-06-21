@@ -1,6 +1,6 @@
 # JTSK-350111
 # a3_p2.py
-# Neeha Hammad
+# nhammad
 # n.hammad@jacobs-university.de
  
 n = 0

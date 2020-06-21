@@ -1,6 +1,6 @@
 # JTSK-350111
 # a1_p5.py
-# Neeha Hammad
+# nhammad
 # n.hammad@jacobs-university.de
  
 print("Please enter your name=")

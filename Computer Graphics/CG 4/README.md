@@ -1,5 +1,5 @@
 # Practical Assignment 4
-**Name:** Neeha Hammad
+**Name:** nhammad
 ## Problem 4.1 
 ### Vertex Normals (Points 20)
 Rather then storing a single _geometry normal_ for a triangle, it is often useful to store at each ```vertex``` a corresponding _vertex normal_. The advantage is that if we have a hit point on a triangle, the shading normal can be smoothly interpolated between the vertex normals. If neighboring triangles share the same vertex normals, a smooth appearance can be generated over non-smooth tesselated geometry.  

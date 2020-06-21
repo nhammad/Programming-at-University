@@ -1,7 +1,7 @@
 /*
 CH08-320143
 a1_p5.cpp
-Neeha Hammad
+nhammad
 n.hammad@jacobs-university.de
 */
 #ifndef _VECTOR_H

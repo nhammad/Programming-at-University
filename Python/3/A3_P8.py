@@ -1,6 +1,6 @@
 # JTSK-350111
 # a3_p8.py
-# Neeha Hammad
+# nhammad
 # n.hammad@jacobs-university.de
  
  

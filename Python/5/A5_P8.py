@@ -1,6 +1,6 @@
 # JTSK-350111
 # a5_p8.py
-# Neeha Hammad
+# nhammad
 # n.hammad@jacobs-university.de
  
 def overlapping(list1, list2):

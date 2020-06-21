@@ -1,6 +1,6 @@
 # JTSK-350111
 # a6_p2.py
-# Neeha Hammad
+# nhammad
 # n.hammad@jacobs-university.de
  
 from turtle import Turtle

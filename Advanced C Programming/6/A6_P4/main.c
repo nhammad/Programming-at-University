@@ -1,6 +1,6 @@
 /*JTSK- 320112
 a6_p4.c
-Neeha Hammad
+nhammad
 n.hammad@jacobs-university.de
 */
 

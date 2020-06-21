@@ -1,7 +1,7 @@
 /*
 CH08-320143
 a4_p6.cpp
-Neeha Hammad
+nhammad
 n.hammad@jacobs-university.de
 */
 #include <map>

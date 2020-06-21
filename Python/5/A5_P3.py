@@ -1,6 +1,6 @@
 # JTSK-350111
 # a5_p3.py
-# Neeha Hammad
+# nhammad
 # n.hammad@jacobs-university.de
  
 file=input("Enter The File Name")

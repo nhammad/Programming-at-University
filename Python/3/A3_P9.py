@@ -1,6 +1,6 @@
 # JTSK-350111
 # a3_p9.py
-# Neeha Hammad
+# nhammad
 # n.hammad@jacobs-university.de
  
 #function definition:

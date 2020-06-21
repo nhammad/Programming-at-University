@@ -1,6 +1,6 @@
 # JTSK-350111
 # a2_p5.py
-# Neeha Hammad
+# nhammad
 # n.hammad@jacobs-university.de
  
 mins=int(input("Enter Mins = "))

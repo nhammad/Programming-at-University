@@ -1,6 +1,6 @@
 # JTSK-350111
 # a4_p6.py
-# Neeha Hammad
+# nhammad
 # n.hammad@jacobs-university.de
  
 import random

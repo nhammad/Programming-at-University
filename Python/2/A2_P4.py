@@ -1,6 +1,6 @@
 # JTSK-350111
 # a2_p4.py
-# Neeha Hammad
+# nhammad
 # n.hammad@jacobs-university.de
  
 #reading a string and converting to float

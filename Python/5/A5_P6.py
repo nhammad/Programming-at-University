@@ -1,6 +1,6 @@
 # JTSK-350111
 # a5_p6.py
-# Neeha Hammad
+# nhammad
 # n.hammad@jacobs-university.de
  
 def histogram(lst):

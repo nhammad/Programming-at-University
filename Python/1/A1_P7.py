@@ -1,6 +1,6 @@
 # JTSK-350111
 # a1_p7.py
-# Neeha Hammad
+# nhammad
 # n.hammad@jacobs-university.de
  
 #import math allows using pi constant

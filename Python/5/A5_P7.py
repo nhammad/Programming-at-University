@@ -1,6 +1,6 @@
 # JTSK-350111
 # a5_p7.py
-# Neeha Hammad
+# nhammad
 # n.hammad@jacobs-university.de
  
 print("Enter A List of Numbers= ")

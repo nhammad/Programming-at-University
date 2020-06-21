@@ -1,6 +1,6 @@
 # JTSK-350111
 # a2_p1.py
-# Neeha Hammad
+# nhammad
 # n.hammad@jacobs-university.de
  
 #converting string to float
