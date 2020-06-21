@@ -175,7 +175,6 @@ Note: Even when I was able to establish a connection for CLAMV, I was not able t
 
 We can use some sort of hash functions to store passwords so that direct passwords cannot be accessed from the tables in the database.
 
-=======
 ## Contributors
 
 **nhammad** : Gui, Database/Backend, Documentation ,Testing
