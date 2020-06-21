@@ -10,5 +10,6 @@ This repository contains code-bases for the Beer Game I built during my Software
 - Doxygen for documentation
 - lcov for test coverage
 - MySQL for databases
+- cmake for building and compilation
 
 Other known contributors: Subid, Diggy, Dorab, Mukhammad
