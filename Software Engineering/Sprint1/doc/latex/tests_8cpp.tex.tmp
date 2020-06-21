@@ -1,0 +1,628 @@
+\hypertarget{tests_8cpp}{}\section{tests.\+cpp File Reference}
+\label{tests_8cpp}\index{tests.\+cpp@{tests.\+cpp}}
+{\ttfamily \#include \char`\"{}gtest/gtest.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}./src/\+Factory.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}./src/\+Player.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}./src/\+Instructor.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}./src/\+Order.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}./src/\+Game.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+Include dependency graph for tests.\+cpp\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{tests_8cpp_ae741ae9791030192de7d721c93a13bd1}{T\+E\+ST} (player\+Test, set\+P\+Id\+Test)
+\item 
+\hyperlink{tests_8cpp_a5f70dd6a5d3871941af5c7aab63ee78f}{T\+E\+ST} (player\+Test, get\+P\+Id\+Test)
+\item 
+\hyperlink{tests_8cpp_aec2fa9415afb1e6ea1a51b87946d7d33}{T\+E\+ST} (player\+Test, set\+Role\+Test)
+\item 
+\hyperlink{tests_8cpp_a16480984296f888db0a3754b1ef28ead}{T\+E\+ST} (player\+Test, get\+Role\+Test)
+\item 
+\hyperlink{tests_8cpp_abd2115485a1c4d297b77ef378f7c49e5}{T\+E\+ST} (player\+Test, decrease\+Inventory\+Test)
+\item 
+\hyperlink{tests_8cpp_a21e07664ff2e1e5b18dc5157a7f69460}{T\+E\+ST} (player\+Test, increase\+Inventory\+Test)
+\item 
+\hyperlink{tests_8cpp_a8e511a4ee9c7bca45280ada45bf604af}{T\+E\+ST} (player\+Test, get\+Backorder\+Test)
+\item 
+\hyperlink{tests_8cpp_a4ad9313eebacc240151baec8ff51463d}{T\+E\+ST} (player\+Test, get\+Cost\+Test)
+\item 
+\hyperlink{tests_8cpp_afca31a7c90ab705132fee1865c93b0aa}{T\+E\+ST} (player\+Test, get\+Inventory\+Test)
+\item 
+\hyperlink{tests_8cpp_abbb58f0693c71f814d008f249c62f0d0}{T\+E\+ST} (player\+Test, set\+Backorder\+Test)
+\item 
+\hyperlink{tests_8cpp_aac7c46446cc5f1a91bc29cc5b6c4675f}{T\+E\+ST} (player\+Test, set\+Cost\+Test)
+\item 
+\hyperlink{tests_8cpp_a01d81b8c2f8950e855f2d0086acbd722}{T\+E\+ST} (player\+Test, set\+Inventory\+Test)
+\item 
+\hyperlink{tests_8cpp_a8fd27440e6581d8a734cdfdbbbc6f83f}{T\+E\+ST} (player\+Test, set\+Order\+Placed\+Test)
+\item 
+\hyperlink{tests_8cpp_ab4bed2eb3526372ad33bfe2e7555b635}{T\+E\+ST} (player\+Test, get\+Order\+Placed\+Test)
+\item 
+\hyperlink{tests_8cpp_ad11664b855d5e016ed1294f09ed0ce90}{T\+E\+ST} (player\+Test, set\+Demand\+Test)
+\item 
+\hyperlink{tests_8cpp_a70081cc20b7aaeb27a4f8c1eb3ff65a5}{T\+E\+ST} (player\+Test, get\+Demand\+Test)
+\item 
+\hyperlink{tests_8cpp_a2eceb45b45bcbec68c76df2065d99ad3}{T\+E\+ST} (player\+Test, ship\+Test)
+\item 
+\hyperlink{tests_8cpp_a2bc551dcf717827b20b4024e4f272857}{T\+E\+ST} (player\+Test, order\+Test)
+\item 
+\hyperlink{tests_8cpp_af1d0667641723a1a5714c93a5e3ab030}{T\+E\+ST} (game\+Test, set\+Shipment\+Delay\+Test)
+\item 
+\hyperlink{tests_8cpp_aa834d2289bc3bdebf897f2a5edc8a17d}{T\+E\+ST} (game\+Test, get\+Shipment\+Delay\+Test)
+\item 
+\hyperlink{tests_8cpp_acba9723d0ad8708e8df11dfcd8018a52}{T\+E\+ST} (game\+Test, set\+Order\+Delay\+Test)
+\item 
+\hyperlink{tests_8cpp_a2a35bbb3146e1ab9eedb355942704a56}{T\+E\+ST} (game\+Test, get\+Order\+Delay\+Test)
+\item 
+\hyperlink{tests_8cpp_a5b9c78732584c0b347325a95615b6937}{T\+E\+ST} (game\+Test, set\+G\+Id\+Test)
+\item 
+\hyperlink{tests_8cpp_a59eeec16be081e481b1407bfeb668cca}{T\+E\+ST} (game\+Test, get\+G\+Id\+Test)
+\item 
+\hyperlink{tests_8cpp_a2a20e394bb2b9dd0bc40aacb575cf496}{T\+E\+ST} (game\+Test, set\+Instr\+Id\+Test)
+\item 
+\hyperlink{tests_8cpp_af1f4baf7661402e53fb1f283df721960}{T\+E\+ST} (game\+Test, get\+Instr\+Id\+Test)
+\item 
+\hyperlink{tests_8cpp_a0387a0f6fe5a24329ca94f46d1b1c4cd}{T\+E\+ST} (game\+Test, set\+P\+Fact\+Id\+Test)
+\item 
+\hyperlink{tests_8cpp_a4bfec1cf153e09237bd237bfc7de2f15}{T\+E\+ST} (game\+Test, get\+P\+Fact\+Id\+Test)
+\item 
+\hyperlink{tests_8cpp_aefd1a042142830ac77e7de99e0387890}{T\+E\+ST} (game\+Test, get\+P\+Distributor\+Id\+Test)
+\item 
+\hyperlink{tests_8cpp_a21272b3bbdbfe2e069f4251d44c25f70}{T\+E\+ST} (game\+Test, set\+P\+Distributor\+Id\+Test)
+\item 
+\hyperlink{tests_8cpp_ab476eb42629b88e6becad5a4fc3a35aa}{T\+E\+ST} (game\+Test, get\+P\+Wholesaler\+Id\+Test)
+\item 
+\hyperlink{tests_8cpp_acb89ab5d3fa1011f55e2e604fb161833}{T\+E\+ST} (game\+Test, set\+P\+Wholesaler\+Id\+Test)
+\item 
+\hyperlink{tests_8cpp_a7b0dc9afd3edf6a6947d5d8e0499b0a4}{T\+E\+ST} (game\+Test, set\+P\+Retailer\+Id\+Test)
+\item 
+\hyperlink{tests_8cpp_a8024925544cf99f0e7cce5597988d8bc}{T\+E\+ST} (game\+Test, get\+P\+Retailer\+Id\+Test)
+\item 
+\hyperlink{tests_8cpp_adec269e4bc1adbd9372ba122f839d151}{T\+E\+ST} (gam\+Test, get\+Order\+Time\+Delay\+Test)
+\item 
+\hyperlink{tests_8cpp_a7200f183103052a104c989a23e1799fc}{T\+E\+ST} (gam\+Test, set\+Order\+Time\+Delay\+Test)
+\item 
+\hyperlink{tests_8cpp_a4b0d92f6129a69054e355b91993f098d}{T\+E\+ST} (game\+Test, advance\+Week\+Test)
+\item 
+\hyperlink{tests_8cpp_a6ecc7702d6197ffc0ef49cf05e2525ff}{T\+E\+ST} (game\+Test, set\+Weeks\+To\+Be\+Played\+Test)
+\item 
+\hyperlink{tests_8cpp_a2485f23f45d9ff967bbc5628f5e3cb3f}{T\+E\+ST} (game\+Test, get\+Weeks\+To\+Be\+Played\+Test)
+\item 
+\hyperlink{tests_8cpp_a197666470ad18d903e30ea79e74c13aa}{T\+E\+ST} (game\+Test, set\+Info\+Code\+Test)
+\item 
+\hyperlink{tests_8cpp_a9a536a7dc3135427bf7078aa0fa6ff7a}{T\+E\+ST} (game\+Test, get\+Info\+Code\+Test)
+\item 
+\hyperlink{tests_8cpp_afe1ed549d507505dff2e98804caa967d}{T\+E\+ST} (game\+Test, set\+Holding\+Cost\+Test)
+\item 
+\hyperlink{tests_8cpp_af283280f1bedb6c7cf2dd66b6cd0f8ca}{T\+E\+ST} (game\+Test, get\+Holding\+Cost\+Test)
+\item 
+\hyperlink{tests_8cpp_a627c817aed1301edefb40baa79ddad22}{T\+E\+ST} (game\+Test, set\+Starting\+Inventory\+Test)
+\item 
+\hyperlink{tests_8cpp_a9ab56c8f5688c460d082f6f21ab0e3c8}{T\+E\+ST} (game\+Test, get\+Starting\+Inventory\+Test)
+\item 
+\hyperlink{tests_8cpp_ab35ea165c84a93ac51e15da73e5f55c0}{T\+E\+ST} (game\+Test, get\+Backorder\+Cost\+Test)
+\item 
+\hyperlink{tests_8cpp_a7320537d208509a5c528cf94bbee8516}{T\+E\+ST} (game\+Test, get\+Current\+Week\+Test)
+\item 
+\hyperlink{tests_8cpp_a8b5c47aac0db966ef356cb734fcf045f}{T\+E\+ST} (game\+Test, set\+Current\+Week\+Test)
+\item 
+\hyperlink{tests_8cpp_a2aab8e43a7014d94f924bcc59f7bbd09}{T\+E\+ST} (game\+Test, generate\+Passwords\+Test)
+\item 
+\hyperlink{tests_8cpp_a9f5e8daded3608c6308588b939d435c6}{T\+E\+ST} (instructor\+Test, set\+Instr\+Email\+Test)
+\item 
+\hyperlink{tests_8cpp_aa1ca034e04a63b41f5577be5f84ddd12}{T\+E\+ST} (instructor\+Test, get\+Instr\+Email\+Test)
+\item 
+\hyperlink{tests_8cpp_a0f88e7e0396e122e93cc2b82b1fe6733}{T\+E\+ST} (instructor\+Test, set\+Instr\+Password\+Test)
+\item 
+\hyperlink{tests_8cpp_a4415465f8a128f4b26959e7299b6ec6f}{T\+E\+ST} (instructor\+Test, get\+Instr\+Password\+Test)
+\item 
+\hyperlink{tests_8cpp_a1eef3dd6afd1cfd3bfcced9fd734492c}{T\+E\+ST} (instructor\+Test, set\+Instr\+Id\+Test)
+\item 
+\hyperlink{tests_8cpp_a14b68f5d4a879f5c32075d25bcd1b058}{T\+E\+ST} (instructor\+Test, get\+Instr\+Id\+Test)
+\item 
+\hyperlink{tests_8cpp_ab3cc359b32bb3e07aece88abee38991d}{T\+E\+ST} (order\+Test, get\+Order\+Id\+Test)
+\item 
+\hyperlink{tests_8cpp_a133872a9e6fe94a464244f8d2c31f4d4}{T\+E\+ST} (order\+Test, set\+Order\+Id\+Test)
+\item 
+\hyperlink{tests_8cpp_a943f547dd9766972f436f99c3e26d7b4}{T\+E\+ST} (order\+Test, get\+G\+Id\+Test)
+\item 
+\hyperlink{tests_8cpp_a4f6567cf2ba654f98631644f31ab91dd}{T\+E\+ST} (order\+Test, set\+G\+Id\+Test)
+\item 
+\hyperlink{tests_8cpp_ace52ab2c1cc4809bd567249a7f4ebb8b}{T\+E\+ST} (order\+Test, get\+From\+Player\+Id\+Test)
+\item 
+\hyperlink{tests_8cpp_a6f2b7ec37bf6230c01a887ee1c49a8cb}{T\+E\+ST} (order\+Test, set\+From\+Player\+Id\+Test)
+\item 
+\hyperlink{tests_8cpp_a952832d059d6de1a958b81701e0bb7ed}{T\+E\+ST} (order\+Test, get\+To\+Player\+Id\+Test)
+\item 
+\hyperlink{tests_8cpp_a0b7c397d9be139038856dccc5a3269cb}{T\+E\+ST} (order\+Test, set\+To\+Player\+Id\+Test)
+\item 
+\hyperlink{tests_8cpp_aa446fcfe29aea8d8da3faf1358adb8d8}{T\+E\+ST} (order\+Test, get\+Ordered\+In\+Week\+Test)
+\item 
+\hyperlink{tests_8cpp_a11d261312827fd420cf539dacc3541ab}{T\+E\+ST} (order\+Test, set\+Ordered\+In\+Week\+Test)
+\item 
+\hyperlink{tests_8cpp_a49212cac71e8668f4cfc4e3f9120d41c}{T\+E\+ST} (order\+Test, get\+Shipped\+In\+Week\+Test)
+\item 
+\hyperlink{tests_8cpp_a3a123025e9d4927197994e1ee8cc2cec}{T\+E\+ST} (order\+Test, set\+Shipped\+In\+Week\+Test)
+\item 
+\hyperlink{tests_8cpp_a42cb3c35c8e002551bde5a8786aaa5ea}{T\+E\+ST} (order\+Test, set\+Number\+Of\+Beers\+Test)
+\item 
+\hyperlink{tests_8cpp_a5a13e663e9cd26f34be5170a22834f92}{T\+E\+ST} (order\+Test, get\+Number\+Of\+Beers\+Test)
+\item 
+\hyperlink{tests_8cpp_ad5f9adbefad0030a7a205362bc7caf61}{T\+E\+ST} (factory\+Test, produce\+Test)
+\item 
+\hyperlink{tests_8cpp_ae393c27ace3356d6d073f20d39c105d7}{T\+E\+ST} (factory\+Test, set\+Produced\+Test)
+\item 
+\hyperlink{tests_8cpp_a043b3bbddca3d76940b04e53d2af6628}{T\+E\+ST} (factory\+Test, get\+Produced\+Test)
+\item 
+\hyperlink{tests_8cpp_abf6973bc95656a97f8179f034f7d9662}{T\+E\+ST} (factory\+Test, set\+Production\+Time\+Test)
+\item 
+\hyperlink{tests_8cpp_a2f4379d601777343a0ce4d9e2829782a}{T\+E\+ST} (factory\+Test, get\+Production\+Time\+Test)
+\item 
+int \hyperlink{tests_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}{main} (int argc, char $\ast$$\ast$argv)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+nhammad, Dorraab Khan 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+17.\+03.\+2020 
+\end{DoxyDate}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{tests_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}\label{tests_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}} 
+\index{tests.\+cpp@{tests.\+cpp}!main@{main}}
+\index{main@{main}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$$\ast$}]{argv }\end{DoxyParamCaption})}
+
+Runs all the Google Tests. \mbox{\Hypertarget{tests_8cpp_ae741ae9791030192de7d721c93a13bd1}\label{tests_8cpp_ae741ae9791030192de7d721c93a13bd1}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [1/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{player\+Test}]{,  }\item[{set\+P\+Id\+Test}]{ }\end{DoxyParamCaption})}
+
+\hyperlink{classPlayer}{Player} Class Tests Tests the setter for \hyperlink{classPlayer}{Player} Id. \mbox{\Hypertarget{tests_8cpp_a5f70dd6a5d3871941af5c7aab63ee78f}\label{tests_8cpp_a5f70dd6a5d3871941af5c7aab63ee78f}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [2/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{player\+Test}]{,  }\item[{get\+P\+Id\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the getter for \hyperlink{classPlayer}{Player} Id. \mbox{\Hypertarget{tests_8cpp_aec2fa9415afb1e6ea1a51b87946d7d33}\label{tests_8cpp_aec2fa9415afb1e6ea1a51b87946d7d33}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [3/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{player\+Test}]{,  }\item[{set\+Role\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the setter for \hyperlink{classPlayer}{Player} \hyperlink{classRole}{Role}. \mbox{\Hypertarget{tests_8cpp_a16480984296f888db0a3754b1ef28ead}\label{tests_8cpp_a16480984296f888db0a3754b1ef28ead}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [4/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{player\+Test}]{,  }\item[{get\+Role\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the getter for \hyperlink{classPlayer}{Player} \hyperlink{classRole}{Role}. \mbox{\Hypertarget{tests_8cpp_abd2115485a1c4d297b77ef378f7c49e5}\label{tests_8cpp_abd2115485a1c4d297b77ef378f7c49e5}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [5/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{player\+Test}]{,  }\item[{decrease\+Inventory\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the decrease\+Inventory() method from the \hyperlink{classPlayer}{Player} class. \mbox{\Hypertarget{tests_8cpp_a21e07664ff2e1e5b18dc5157a7f69460}\label{tests_8cpp_a21e07664ff2e1e5b18dc5157a7f69460}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [6/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{player\+Test}]{,  }\item[{increase\+Inventory\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the increase\+Inventory() method from the \hyperlink{classPlayer}{Player} class. \mbox{\Hypertarget{tests_8cpp_a8e511a4ee9c7bca45280ada45bf604af}\label{tests_8cpp_a8e511a4ee9c7bca45280ada45bf604af}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [7/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{player\+Test}]{,  }\item[{get\+Backorder\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the getter for \hyperlink{classPlayer}{Player}\textquotesingle{}s Backorder. \mbox{\Hypertarget{tests_8cpp_a4ad9313eebacc240151baec8ff51463d}\label{tests_8cpp_a4ad9313eebacc240151baec8ff51463d}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [8/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{player\+Test}]{,  }\item[{get\+Cost\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the getter for \hyperlink{classPlayer}{Player}\textquotesingle{}s Cost. \mbox{\Hypertarget{tests_8cpp_afca31a7c90ab705132fee1865c93b0aa}\label{tests_8cpp_afca31a7c90ab705132fee1865c93b0aa}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [9/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{player\+Test}]{,  }\item[{get\+Inventory\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the getter for \hyperlink{classPlayer}{Player}\textquotesingle{}s Inventory value. \mbox{\Hypertarget{tests_8cpp_abbb58f0693c71f814d008f249c62f0d0}\label{tests_8cpp_abbb58f0693c71f814d008f249c62f0d0}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [10/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{player\+Test}]{,  }\item[{set\+Backorder\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the setter for \hyperlink{classPlayer}{Player}\textquotesingle{}s Backorder. \mbox{\Hypertarget{tests_8cpp_aac7c46446cc5f1a91bc29cc5b6c4675f}\label{tests_8cpp_aac7c46446cc5f1a91bc29cc5b6c4675f}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [11/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{player\+Test}]{,  }\item[{set\+Cost\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the setter for \hyperlink{classPlayer}{Player}\textquotesingle{}s Cost. \mbox{\Hypertarget{tests_8cpp_a01d81b8c2f8950e855f2d0086acbd722}\label{tests_8cpp_a01d81b8c2f8950e855f2d0086acbd722}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [12/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{player\+Test}]{,  }\item[{set\+Inventory\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the setter for \hyperlink{classPlayer}{Player}\textquotesingle{}s Inventory value. \mbox{\Hypertarget{tests_8cpp_a8fd27440e6581d8a734cdfdbbbc6f83f}\label{tests_8cpp_a8fd27440e6581d8a734cdfdbbbc6f83f}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [13/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{player\+Test}]{,  }\item[{set\+Order\+Placed\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the setter for \hyperlink{classPlayer}{Player}\textquotesingle{}s Order\+Placed value. \mbox{\Hypertarget{tests_8cpp_ab4bed2eb3526372ad33bfe2e7555b635}\label{tests_8cpp_ab4bed2eb3526372ad33bfe2e7555b635}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [14/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{player\+Test}]{,  }\item[{get\+Order\+Placed\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the getter for \hyperlink{classPlayer}{Player}\textquotesingle{}s Order\+Placed value. \mbox{\Hypertarget{tests_8cpp_ad11664b855d5e016ed1294f09ed0ce90}\label{tests_8cpp_ad11664b855d5e016ed1294f09ed0ce90}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [15/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{player\+Test}]{,  }\item[{set\+Demand\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the setter for \hyperlink{classPlayer}{Player}\textquotesingle{}s Demand value. \mbox{\Hypertarget{tests_8cpp_a70081cc20b7aaeb27a4f8c1eb3ff65a5}\label{tests_8cpp_a70081cc20b7aaeb27a4f8c1eb3ff65a5}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [16/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{player\+Test}]{,  }\item[{get\+Demand\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the getter for \hyperlink{classPlayer}{Player}\textquotesingle{}s Demand value. \mbox{\Hypertarget{tests_8cpp_a2eceb45b45bcbec68c76df2065d99ad3}\label{tests_8cpp_a2eceb45b45bcbec68c76df2065d99ad3}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [17/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{player\+Test}]{,  }\item[{ship\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the ship() method, which moves beer units from Player1\textquotesingle{}s inventory to Player2\textquotesingle{}s inventory. \mbox{\Hypertarget{tests_8cpp_a2bc551dcf717827b20b4024e4f272857}\label{tests_8cpp_a2bc551dcf717827b20b4024e4f272857}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [18/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{player\+Test}]{,  }\item[{order\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the order() method, which moves beer units from Player2\textquotesingle{}s inventory to Player1\textquotesingle{}s inventory. \mbox{\Hypertarget{tests_8cpp_af1d0667641723a1a5714c93a5e3ab030}\label{tests_8cpp_af1d0667641723a1a5714c93a5e3ab030}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [19/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{game\+Test}]{,  }\item[{set\+Shipment\+Delay\+Test}]{ }\end{DoxyParamCaption})}
+
+\hyperlink{classGame}{Game} Class Tests test setter for shipment delay \mbox{\Hypertarget{tests_8cpp_aa834d2289bc3bdebf897f2a5edc8a17d}\label{tests_8cpp_aa834d2289bc3bdebf897f2a5edc8a17d}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [20/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{game\+Test}]{,  }\item[{get\+Shipment\+Delay\+Test}]{ }\end{DoxyParamCaption})}
+
+test getter for shipment delay \mbox{\Hypertarget{tests_8cpp_acba9723d0ad8708e8df11dfcd8018a52}\label{tests_8cpp_acba9723d0ad8708e8df11dfcd8018a52}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [21/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{game\+Test}]{,  }\item[{set\+Order\+Delay\+Test}]{ }\end{DoxyParamCaption})}
+
+test setter for order delay \mbox{\Hypertarget{tests_8cpp_a2a35bbb3146e1ab9eedb355942704a56}\label{tests_8cpp_a2a35bbb3146e1ab9eedb355942704a56}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [22/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{game\+Test}]{,  }\item[{get\+Order\+Delay\+Test}]{ }\end{DoxyParamCaption})}
+
+test getter for order delay \mbox{\Hypertarget{tests_8cpp_a5b9c78732584c0b347325a95615b6937}\label{tests_8cpp_a5b9c78732584c0b347325a95615b6937}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [23/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{game\+Test}]{,  }\item[{set\+G\+Id\+Test}]{ }\end{DoxyParamCaption})}
+
+test setter for game ID \mbox{\Hypertarget{tests_8cpp_a59eeec16be081e481b1407bfeb668cca}\label{tests_8cpp_a59eeec16be081e481b1407bfeb668cca}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [24/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{game\+Test}]{,  }\item[{get\+G\+Id\+Test}]{ }\end{DoxyParamCaption})}
+
+test getter for game ID \mbox{\Hypertarget{tests_8cpp_a2a20e394bb2b9dd0bc40aacb575cf496}\label{tests_8cpp_a2a20e394bb2b9dd0bc40aacb575cf496}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [25/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{game\+Test}]{,  }\item[{set\+Instr\+Id\+Test}]{ }\end{DoxyParamCaption})}
+
+test setter for instructor ID \mbox{\Hypertarget{tests_8cpp_af1f4baf7661402e53fb1f283df721960}\label{tests_8cpp_af1f4baf7661402e53fb1f283df721960}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [26/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{game\+Test}]{,  }\item[{get\+Instr\+Id\+Test}]{ }\end{DoxyParamCaption})}
+
+test getter for instructor ID \mbox{\Hypertarget{tests_8cpp_a0387a0f6fe5a24329ca94f46d1b1c4cd}\label{tests_8cpp_a0387a0f6fe5a24329ca94f46d1b1c4cd}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [27/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{game\+Test}]{,  }\item[{set\+P\+Fact\+Id\+Test}]{ }\end{DoxyParamCaption})}
+
+test setter for factory ID \mbox{\Hypertarget{tests_8cpp_a4bfec1cf153e09237bd237bfc7de2f15}\label{tests_8cpp_a4bfec1cf153e09237bd237bfc7de2f15}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [28/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{game\+Test}]{,  }\item[{get\+P\+Fact\+Id\+Test}]{ }\end{DoxyParamCaption})}
+
+test getter for factory ID \mbox{\Hypertarget{tests_8cpp_aefd1a042142830ac77e7de99e0387890}\label{tests_8cpp_aefd1a042142830ac77e7de99e0387890}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [29/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{game\+Test}]{,  }\item[{get\+P\+Distributor\+Id\+Test}]{ }\end{DoxyParamCaption})}
+
+test getter for distributor ID \mbox{\Hypertarget{tests_8cpp_a21272b3bbdbfe2e069f4251d44c25f70}\label{tests_8cpp_a21272b3bbdbfe2e069f4251d44c25f70}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [30/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{game\+Test}]{,  }\item[{set\+P\+Distributor\+Id\+Test}]{ }\end{DoxyParamCaption})}
+
+test setter for distributor ID \mbox{\Hypertarget{tests_8cpp_ab476eb42629b88e6becad5a4fc3a35aa}\label{tests_8cpp_ab476eb42629b88e6becad5a4fc3a35aa}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [31/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{game\+Test}]{,  }\item[{get\+P\+Wholesaler\+Id\+Test}]{ }\end{DoxyParamCaption})}
+
+test getter for wholesaler ID \mbox{\Hypertarget{tests_8cpp_acb89ab5d3fa1011f55e2e604fb161833}\label{tests_8cpp_acb89ab5d3fa1011f55e2e604fb161833}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [32/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{game\+Test}]{,  }\item[{set\+P\+Wholesaler\+Id\+Test}]{ }\end{DoxyParamCaption})}
+
+test setter for wholesaler ID \mbox{\Hypertarget{tests_8cpp_a7b0dc9afd3edf6a6947d5d8e0499b0a4}\label{tests_8cpp_a7b0dc9afd3edf6a6947d5d8e0499b0a4}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [33/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{game\+Test}]{,  }\item[{set\+P\+Retailer\+Id\+Test}]{ }\end{DoxyParamCaption})}
+
+test setter for retailer ID \mbox{\Hypertarget{tests_8cpp_a8024925544cf99f0e7cce5597988d8bc}\label{tests_8cpp_a8024925544cf99f0e7cce5597988d8bc}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [34/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{game\+Test}]{,  }\item[{get\+P\+Retailer\+Id\+Test}]{ }\end{DoxyParamCaption})}
+
+test getter for retailer ID \mbox{\Hypertarget{tests_8cpp_adec269e4bc1adbd9372ba122f839d151}\label{tests_8cpp_adec269e4bc1adbd9372ba122f839d151}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [35/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{gam\+Test}]{,  }\item[{get\+Order\+Time\+Delay\+Test}]{ }\end{DoxyParamCaption})}
+
+test getter for order time delay \mbox{\Hypertarget{tests_8cpp_a7200f183103052a104c989a23e1799fc}\label{tests_8cpp_a7200f183103052a104c989a23e1799fc}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [36/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{gam\+Test}]{,  }\item[{set\+Order\+Time\+Delay\+Test}]{ }\end{DoxyParamCaption})}
+
+test setter for order time delay \mbox{\Hypertarget{tests_8cpp_a4b0d92f6129a69054e355b91993f098d}\label{tests_8cpp_a4b0d92f6129a69054e355b91993f098d}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [37/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{game\+Test}]{,  }\item[{advance\+Week\+Test}]{ }\end{DoxyParamCaption})}
+
+test advance\+Week method \mbox{\Hypertarget{tests_8cpp_a6ecc7702d6197ffc0ef49cf05e2525ff}\label{tests_8cpp_a6ecc7702d6197ffc0ef49cf05e2525ff}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [38/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{game\+Test}]{,  }\item[{set\+Weeks\+To\+Be\+Played\+Test}]{ }\end{DoxyParamCaption})}
+
+test setter for weeks to be played \mbox{\Hypertarget{tests_8cpp_a2485f23f45d9ff967bbc5628f5e3cb3f}\label{tests_8cpp_a2485f23f45d9ff967bbc5628f5e3cb3f}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [39/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{game\+Test}]{,  }\item[{get\+Weeks\+To\+Be\+Played\+Test}]{ }\end{DoxyParamCaption})}
+
+test getter for weeks to be played \mbox{\Hypertarget{tests_8cpp_a197666470ad18d903e30ea79e74c13aa}\label{tests_8cpp_a197666470ad18d903e30ea79e74c13aa}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [40/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{game\+Test}]{,  }\item[{set\+Info\+Code\+Test}]{ }\end{DoxyParamCaption})}
+
+test setter for information sharing code \mbox{\Hypertarget{tests_8cpp_a9a536a7dc3135427bf7078aa0fa6ff7a}\label{tests_8cpp_a9a536a7dc3135427bf7078aa0fa6ff7a}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [41/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{game\+Test}]{,  }\item[{get\+Info\+Code\+Test}]{ }\end{DoxyParamCaption})}
+
+test getter for information sharing code \mbox{\Hypertarget{tests_8cpp_afe1ed549d507505dff2e98804caa967d}\label{tests_8cpp_afe1ed549d507505dff2e98804caa967d}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [42/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{game\+Test}]{,  }\item[{set\+Holding\+Cost\+Test}]{ }\end{DoxyParamCaption})}
+
+test setter for holding cost \mbox{\Hypertarget{tests_8cpp_af283280f1bedb6c7cf2dd66b6cd0f8ca}\label{tests_8cpp_af283280f1bedb6c7cf2dd66b6cd0f8ca}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [43/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{game\+Test}]{,  }\item[{get\+Holding\+Cost\+Test}]{ }\end{DoxyParamCaption})}
+
+test getter for holding cost \mbox{\Hypertarget{tests_8cpp_a627c817aed1301edefb40baa79ddad22}\label{tests_8cpp_a627c817aed1301edefb40baa79ddad22}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [44/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{game\+Test}]{,  }\item[{set\+Starting\+Inventory\+Test}]{ }\end{DoxyParamCaption})}
+
+test setter for starting inventory \mbox{\Hypertarget{tests_8cpp_a9ab56c8f5688c460d082f6f21ab0e3c8}\label{tests_8cpp_a9ab56c8f5688c460d082f6f21ab0e3c8}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [45/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{game\+Test}]{,  }\item[{get\+Starting\+Inventory\+Test}]{ }\end{DoxyParamCaption})}
+
+test getter for starting inventory \mbox{\Hypertarget{tests_8cpp_ab35ea165c84a93ac51e15da73e5f55c0}\label{tests_8cpp_ab35ea165c84a93ac51e15da73e5f55c0}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [46/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{game\+Test}]{,  }\item[{get\+Backorder\+Cost\+Test}]{ }\end{DoxyParamCaption})}
+
+test getter for backorder cost \mbox{\Hypertarget{tests_8cpp_a7320537d208509a5c528cf94bbee8516}\label{tests_8cpp_a7320537d208509a5c528cf94bbee8516}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [47/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{game\+Test}]{,  }\item[{get\+Current\+Week\+Test}]{ }\end{DoxyParamCaption})}
+
+test getter for current week \mbox{\Hypertarget{tests_8cpp_a8b5c47aac0db966ef356cb734fcf045f}\label{tests_8cpp_a8b5c47aac0db966ef356cb734fcf045f}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [48/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{game\+Test}]{,  }\item[{set\+Current\+Week\+Test}]{ }\end{DoxyParamCaption})}
+
+test setter for current week \mbox{\Hypertarget{tests_8cpp_a2aab8e43a7014d94f924bcc59f7bbd09}\label{tests_8cpp_a2aab8e43a7014d94f924bcc59f7bbd09}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [49/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{game\+Test}]{,  }\item[{generate\+Passwords\+Test}]{ }\end{DoxyParamCaption})}
+
+Test generation of passwords \mbox{\Hypertarget{tests_8cpp_a9f5e8daded3608c6308588b939d435c6}\label{tests_8cpp_a9f5e8daded3608c6308588b939d435c6}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [50/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{instructor\+Test}]{,  }\item[{set\+Instr\+Email\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the setter for \hyperlink{classInstructor}{Instructor}\textquotesingle{}s Email. \mbox{\Hypertarget{tests_8cpp_aa1ca034e04a63b41f5577be5f84ddd12}\label{tests_8cpp_aa1ca034e04a63b41f5577be5f84ddd12}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [51/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{instructor\+Test}]{,  }\item[{get\+Instr\+Email\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the getter for \hyperlink{classInstructor}{Instructor}\textquotesingle{}s Email. \mbox{\Hypertarget{tests_8cpp_a0f88e7e0396e122e93cc2b82b1fe6733}\label{tests_8cpp_a0f88e7e0396e122e93cc2b82b1fe6733}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [52/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{instructor\+Test}]{,  }\item[{set\+Instr\+Password\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the setter for \hyperlink{classInstructor}{Instructor}\textquotesingle{}s Password. \mbox{\Hypertarget{tests_8cpp_a4415465f8a128f4b26959e7299b6ec6f}\label{tests_8cpp_a4415465f8a128f4b26959e7299b6ec6f}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [53/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{instructor\+Test}]{,  }\item[{get\+Instr\+Password\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the getter for \hyperlink{classInstructor}{Instructor}\textquotesingle{}s Password. \mbox{\Hypertarget{tests_8cpp_a1eef3dd6afd1cfd3bfcced9fd734492c}\label{tests_8cpp_a1eef3dd6afd1cfd3bfcced9fd734492c}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [54/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{instructor\+Test}]{,  }\item[{set\+Instr\+Id\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the setter for \hyperlink{classInstructor}{Instructor}\textquotesingle{}s Id. \mbox{\Hypertarget{tests_8cpp_a14b68f5d4a879f5c32075d25bcd1b058}\label{tests_8cpp_a14b68f5d4a879f5c32075d25bcd1b058}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [55/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{instructor\+Test}]{,  }\item[{get\+Instr\+Id\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the getter for \hyperlink{classInstructor}{Instructor}\textquotesingle{}s Email. \mbox{\Hypertarget{tests_8cpp_ab3cc359b32bb3e07aece88abee38991d}\label{tests_8cpp_ab3cc359b32bb3e07aece88abee38991d}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [56/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{order\+Test}]{,  }\item[{get\+Order\+Id\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the getter for \hyperlink{classOrder}{Order} Id. \mbox{\Hypertarget{tests_8cpp_a133872a9e6fe94a464244f8d2c31f4d4}\label{tests_8cpp_a133872a9e6fe94a464244f8d2c31f4d4}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [57/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{order\+Test}]{,  }\item[{set\+Order\+Id\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the setter for \hyperlink{classOrder}{Order} Id. \mbox{\Hypertarget{tests_8cpp_a943f547dd9766972f436f99c3e26d7b4}\label{tests_8cpp_a943f547dd9766972f436f99c3e26d7b4}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [58/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{order\+Test}]{,  }\item[{get\+G\+Id\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the getter for \hyperlink{classGame}{Game} Id. \mbox{\Hypertarget{tests_8cpp_a4f6567cf2ba654f98631644f31ab91dd}\label{tests_8cpp_a4f6567cf2ba654f98631644f31ab91dd}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [59/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{order\+Test}]{,  }\item[{set\+G\+Id\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the setter for \hyperlink{classGame}{Game} Id. \mbox{\Hypertarget{tests_8cpp_ace52ab2c1cc4809bd567249a7f4ebb8b}\label{tests_8cpp_ace52ab2c1cc4809bd567249a7f4ebb8b}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [60/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{order\+Test}]{,  }\item[{get\+From\+Player\+Id\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the getter for the \hyperlink{classPlayer}{Player} Id who will deliver the order. \mbox{\Hypertarget{tests_8cpp_a6f2b7ec37bf6230c01a887ee1c49a8cb}\label{tests_8cpp_a6f2b7ec37bf6230c01a887ee1c49a8cb}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [61/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{order\+Test}]{,  }\item[{set\+From\+Player\+Id\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the setter for the \hyperlink{classPlayer}{Player} Id who will deliver the order. \mbox{\Hypertarget{tests_8cpp_a952832d059d6de1a958b81701e0bb7ed}\label{tests_8cpp_a952832d059d6de1a958b81701e0bb7ed}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [62/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{order\+Test}]{,  }\item[{get\+To\+Player\+Id\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the getter for the \hyperlink{classPlayer}{Player} Id who will recieve the order. \mbox{\Hypertarget{tests_8cpp_a0b7c397d9be139038856dccc5a3269cb}\label{tests_8cpp_a0b7c397d9be139038856dccc5a3269cb}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [63/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{order\+Test}]{,  }\item[{set\+To\+Player\+Id\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the getter for the \hyperlink{classPlayer}{Player} Id who will deliver the order. \mbox{\Hypertarget{tests_8cpp_aa446fcfe29aea8d8da3faf1358adb8d8}\label{tests_8cpp_aa446fcfe29aea8d8da3faf1358adb8d8}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [64/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{order\+Test}]{,  }\item[{get\+Ordered\+In\+Week\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the getter for the Week number when the order was placed. \mbox{\Hypertarget{tests_8cpp_a11d261312827fd420cf539dacc3541ab}\label{tests_8cpp_a11d261312827fd420cf539dacc3541ab}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [65/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{order\+Test}]{,  }\item[{set\+Ordered\+In\+Week\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the setter for the Week number when the order was placed. \mbox{\Hypertarget{tests_8cpp_a49212cac71e8668f4cfc4e3f9120d41c}\label{tests_8cpp_a49212cac71e8668f4cfc4e3f9120d41c}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [66/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{order\+Test}]{,  }\item[{get\+Shipped\+In\+Week\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the getter for the Week number when the order was shipped. \mbox{\Hypertarget{tests_8cpp_a3a123025e9d4927197994e1ee8cc2cec}\label{tests_8cpp_a3a123025e9d4927197994e1ee8cc2cec}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [67/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{order\+Test}]{,  }\item[{set\+Shipped\+In\+Week\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the setter for the Week number when the order was shipped. \mbox{\Hypertarget{tests_8cpp_a42cb3c35c8e002551bde5a8786aaa5ea}\label{tests_8cpp_a42cb3c35c8e002551bde5a8786aaa5ea}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [68/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{order\+Test}]{,  }\item[{set\+Number\+Of\+Beers\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the setter for the number of beer units. \mbox{\Hypertarget{tests_8cpp_a5a13e663e9cd26f34be5170a22834f92}\label{tests_8cpp_a5a13e663e9cd26f34be5170a22834f92}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [69/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{order\+Test}]{,  }\item[{get\+Number\+Of\+Beers\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the getter for the number of beer units. \mbox{\Hypertarget{tests_8cpp_ad5f9adbefad0030a7a205362bc7caf61}\label{tests_8cpp_ad5f9adbefad0030a7a205362bc7caf61}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [70/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{factory\+Test}]{,  }\item[{produce\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the produce() method from \hyperlink{classFactory}{Factory}, which generates beer units and adds them into the produced attribute. \mbox{\Hypertarget{tests_8cpp_ae393c27ace3356d6d073f20d39c105d7}\label{tests_8cpp_ae393c27ace3356d6d073f20d39c105d7}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [71/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{factory\+Test}]{,  }\item[{set\+Produced\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the setter for the attribute produced\+: i.\+e how many beer units are produced already. \mbox{\Hypertarget{tests_8cpp_a043b3bbddca3d76940b04e53d2af6628}\label{tests_8cpp_a043b3bbddca3d76940b04e53d2af6628}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [72/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{factory\+Test}]{,  }\item[{get\+Produced\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the getter for the attribute produced\+: i.\+e how many beer units are produced already. \mbox{\Hypertarget{tests_8cpp_abf6973bc95656a97f8179f034f7d9662}\label{tests_8cpp_abf6973bc95656a97f8179f034f7d9662}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [73/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{factory\+Test}]{,  }\item[{set\+Production\+Time\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the setter for the attribute production\+Time\+: i.\+e how much time it takes for the production of a batch. \mbox{\Hypertarget{tests_8cpp_a2f4379d601777343a0ce4d9e2829782a}\label{tests_8cpp_a2f4379d601777343a0ce4d9e2829782a}} 
+\index{tests.\+cpp@{tests.\+cpp}!T\+E\+ST@{T\+E\+ST}}
+\index{T\+E\+ST@{T\+E\+ST}!tests.\+cpp@{tests.\+cpp}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T()}{TEST()}\hspace{0.1cm}{\footnotesize\ttfamily [74/74]}}
+{\footnotesize\ttfamily T\+E\+ST (\begin{DoxyParamCaption}\item[{factory\+Test}]{,  }\item[{get\+Production\+Time\+Test}]{ }\end{DoxyParamCaption})}
+
+Tests the getter for the attribute production\+Time\+: i.\+e how much time it takes for the production of a batch. 

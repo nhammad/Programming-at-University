@@ -1,0 +1,46 @@
+{
+    "online-references": [{
+            "url #1": "https://cnds.jacobs-university.de/courses/sads-2019/src/gcd/CMakeLists.txt",
+            "url #2": "https://doc.qt.io/qt-5/cmake-manual.html?fbclid=IwAR1v3mmf6dgpQ4_uX8J66OCyI3uLRceL4vbuPnliOcxNFJTY4-JMMtS2QJc",
+            "contribution": "Cmake and doxygen inclusion",
+            "file": "CMakeLists.txt, Doxyfile.in"
+        },
+        {
+            "url": "https://www.pluralsight.com/courses/introduction-qt-cplusplus-framework?fbclid=IwAR3Y0zn_Cxh8IYVZyNHVxiuH0kRrLuxb9mwXeEjA1KIcGyNRla8ovLJeBfA",
+            "contribution": "A quick course on how to create the actual Hello World",
+            "file": "main.cc"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=6_elY8O20I8",
+            "contribution": "Qt Tutorials For Beginners",
+            "file": "mainwindow.ui UI files"
+        }
+        ,
+        {
+            "url": "https://gist.github.com/PurpleBooth/109311bb0361f32d87a2?fbclid=IwAR30WV0GXTN2nMXVqaq0UsBj8hJEspYQ30HUyc32djfyef2YT5d5IBx29Ng",
+            "contribution": "readme.md template",
+            "file": "readme.md"
+        },
+        {
+            "url": "https://github.com/github/gitignore/blob/master/C%2B%2B.gitignore",
+            "contribution": "gitignore template",
+            "file": ".gitignore"
+        },
+         {
+            "url": "https://likegeeks.com/mysql-on-linux-beginners-tutorial/",
+            "contribution": "mysql setup",
+            "file": "main.cpp"
+        }
+    ],
+    "other-references": [{
+            "title": "se-project-write-up.pdf",
+            "contribution": "Reference json file template",
+            "file": "references.json"
+        }
+    ],
+    "colleague": [{
+            "jacobs-id": "d.maharjan",
+            "contribution": "Helped throughout the development whenever the project had issues",
+            "file": "main.cc"
+        }]
+}

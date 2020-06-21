@@ -1,0 +1,470 @@
+\hypertarget{classGame}{}\section{Game Class Reference}
+\label{classGame}\index{Game@{Game}}
+
+
+{\ttfamily \#include $<$Game.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classGame_ad59df6562a58a614fda24622d3715b65}{Game} ()
+\item 
+void \hyperlink{classGame_a8c475daf7cf7752185ad5da98907c9ca}{set\+Shipment\+Delay} (int new\+Shipment\+Delay)
+\item 
+void \hyperlink{classGame_a89df2f584b7ccfdf5c2367bd2ed85920}{set\+Order\+Delay} (int new\+Order\+Delay)
+\item 
+void \hyperlink{classGame_a886bd4bd86fb77831438cc0b2acd5e96}{set\+Info\+Code} (int ninfo\+Code)
+\item 
+void \hyperlink{classGame_acab161e982ecf8ab7b3bfb8d4927b89d}{set\+Starting\+Inventory} (int nstarting\+Inventory)
+\item 
+void \hyperlink{classGame_a7bed0fb500fa97a8b3a30420629a4c38}{set\+Backorder} (int nbackorder)
+\item 
+void \hyperlink{classGame_a3979fb5baa71d71baf0070a4d3867cb1}{setweeks\+To\+Be\+Played} (int nweeks\+To\+Be\+Played)
+\item 
+void \hyperlink{classGame_a23c5d1b710b8daa02fe623f709e1f62f}{set\+Backorder\+Cost} (double nbackorder\+Cost)
+\item 
+void \hyperlink{classGame_a469b669f532f987678463cff63a3d872}{set\+Holding\+Cost} (double nholding\+Cost)
+\item 
+void \hyperlink{classGame_a894a4b2d874a67fd25b084adc8bf1bc9}{set\+Current\+Week} (int ncurrent\+Week)
+\item 
+void \hyperlink{classGame_a28f1e26b5927dcf6deaf9c7c2fa2d1d3}{set\+G\+Id} (int ng\+ID)
+\item 
+void \hyperlink{classGame_ab62c0ccec274f408c3584d353fd0da79}{set\+Instr\+Id} (int ni\+ID)
+\item 
+void \hyperlink{classGame_a13be14dc30d9abffe0aecad59977dcdc}{set\+P\+Fact\+Id} (int nf\+ID)
+\item 
+void \hyperlink{classGame_ad42bbcafead378b6fa33110dadf4c67b}{set\+P\+Distributor\+Id} (int nd\+ID)
+\item 
+void \hyperlink{classGame_a6cfdb34ff66e98c193dfc918a961ce66}{set\+P\+Wholesaler\+Id} (int nw\+ID)
+\item 
+void \hyperlink{classGame_a33ada7d6482601e8f5c2d16731b6ac10}{set\+Retailer\+Id} (int nr\+ID)
+\item 
+void \hyperlink{classGame_acf5b10b8b268b443600518240a1591b5}{set\+Order\+Time\+Delay} (int ndelay)
+\item 
+int \hyperlink{classGame_ab25852cc4c2df47382d33cfe3c2b55d0}{get\+Shipment\+Delay} () const
+\item 
+int \hyperlink{classGame_ab68ef87715311bea275bdac17342f2bd}{get\+Order\+Delay} () const
+\item 
+int \hyperlink{classGame_a3a9810e55fb1b4b5df6c887811c73885}{get\+Weeks\+To\+Be\+Played} () const
+\item 
+int \hyperlink{classGame_aafa386030ee084fe10699ec84316e689}{get\+Info\+Code} () const
+\item 
+int \hyperlink{classGame_aab794be46d7e7d8832ca6b5430cd61e2}{get\+Starting\+Inventory} () const
+\item 
+int \hyperlink{classGame_a679d1b8cccec8ef599afba5fc05e254f}{get\+Backorder} () const
+\item 
+double \hyperlink{classGame_ac00135b6b5128aca74b09e9f79d54b60}{get\+Backorder\+Cost} () const
+\item 
+double \hyperlink{classGame_a0842aaa236062f2a9dd7e9d32f0be131}{get\+Holding\+Cost} () const
+\item 
+map$<$ int, \hyperlink{classOrder}{Order} $>$ \hyperlink{classGame_a7bb6c8a67ab9e3c0eb9b6c8892ce4084}{get\+Orders\+To\+Be\+Executed} () const
+\item 
+int \hyperlink{classGame_aa4d5959a4edb54d944b93c83725229aa}{get\+Current\+Week} () const
+\item 
+int \hyperlink{classGame_a13a42860435b979445a5e74b9ca4855a}{get\+G\+Id} () const
+\item 
+int \hyperlink{classGame_a2fb39179e66606280c4d6408ffac0012}{get\+Instr\+Id} () const
+\item 
+int \hyperlink{classGame_a39a79914de4376873a17d90e5c916b10}{get\+P\+Fact\+Id} () const
+\item 
+int \hyperlink{classGame_adfa63d3dd6455a8ba8530baf322c70c4}{get\+P\+Distributor\+Id} () const
+\item 
+int \hyperlink{classGame_af6934f2c39a6c6c99519f6081b56d6b7}{get\+P\+Wholesaler\+Id} () const
+\item 
+int \hyperlink{classGame_add0239e447bd78f762a53f75da31f07e}{get\+Retailer\+Id} () const
+\item 
+int \hyperlink{classGame_ac33e4608fc0971b4280ab16fb7dafde4}{get\+Order\+Time\+Delay} () const
+\item 
+void \hyperlink{classGame_a0e6b1f8c9d598c7eb860d04c218fa546}{add\+Order} (\hyperlink{classOrder}{Order} order)
+\item 
+int \hyperlink{classGame_a8471ea91ed18fc2d289eb23747d11d39}{advance\+Week} ()
+\item 
+vector$<$ string $>$ \hyperlink{classGame_a88a61be96d6266e6b7efaae089b43ff5}{generate\+Passwords} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class represents a \hyperlink{classGame}{Game} which is created by an \hyperlink{classInstructor}{Instructor} and played by multiple Players.
+
+\begin{DoxyAuthor}{Author}
+Dorrab Khan 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+17.\+03.\+2020 
+\end{DoxyDate}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classGame_ad59df6562a58a614fda24622d3715b65}\label{classGame_ad59df6562a58a614fda24622d3715b65}} 
+\index{Game@{Game}!Game@{Game}}
+\index{Game@{Game}!Game@{Game}}
+\subsubsection{\texorpdfstring{Game()}{Game()}}
+{\footnotesize\ttfamily Game\+::\+Game (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Default constructor for the \hyperlink{classGame}{Game} class 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classGame_a0e6b1f8c9d598c7eb860d04c218fa546}\label{classGame_a0e6b1f8c9d598c7eb860d04c218fa546}} 
+\index{Game@{Game}!add\+Order@{add\+Order}}
+\index{add\+Order@{add\+Order}!Game@{Game}}
+\subsubsection{\texorpdfstring{add\+Order()}{addOrder()}}
+{\footnotesize\ttfamily void Game\+::add\+Order (\begin{DoxyParamCaption}\item[{\hyperlink{classOrder}{Order}}]{order }\end{DoxyParamCaption})}
+
+add order to list of orders 
+\begin{DoxyParams}{Parameters}
+{\em order} & order to add \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGame_a8471ea91ed18fc2d289eb23747d11d39}\label{classGame_a8471ea91ed18fc2d289eb23747d11d39}} 
+\index{Game@{Game}!advance\+Week@{advance\+Week}}
+\index{advance\+Week@{advance\+Week}!Game@{Game}}
+\subsubsection{\texorpdfstring{advance\+Week()}{advanceWeek()}}
+{\footnotesize\ttfamily int Game\+::advance\+Week (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+advance the current week \begin{DoxyReturn}{Returns}
+int -\/ new week 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGame_a88a61be96d6266e6b7efaae089b43ff5}\label{classGame_a88a61be96d6266e6b7efaae089b43ff5}} 
+\index{Game@{Game}!generate\+Passwords@{generate\+Passwords}}
+\index{generate\+Passwords@{generate\+Passwords}!Game@{Game}}
+\subsubsection{\texorpdfstring{generate\+Passwords()}{generatePasswords()}}
+{\footnotesize\ttfamily vector$<$ string $>$ Game\+::generate\+Passwords (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+generate 4 random passwords \begin{DoxyReturn}{Returns}
+vector$<$string$>$ -\/ 4 random passwords 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGame_a679d1b8cccec8ef599afba5fc05e254f}\label{classGame_a679d1b8cccec8ef599afba5fc05e254f}} 
+\index{Game@{Game}!get\+Backorder@{get\+Backorder}}
+\index{get\+Backorder@{get\+Backorder}!Game@{Game}}
+\subsubsection{\texorpdfstring{get\+Backorder()}{getBackorder()}}
+{\footnotesize\ttfamily int Game\+::get\+Backorder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+get value of backorder \begin{DoxyReturn}{Returns}
+int -\/ backorder value 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGame_ac00135b6b5128aca74b09e9f79d54b60}\label{classGame_ac00135b6b5128aca74b09e9f79d54b60}} 
+\index{Game@{Game}!get\+Backorder\+Cost@{get\+Backorder\+Cost}}
+\index{get\+Backorder\+Cost@{get\+Backorder\+Cost}!Game@{Game}}
+\subsubsection{\texorpdfstring{get\+Backorder\+Cost()}{getBackorderCost()}}
+{\footnotesize\ttfamily double Game\+::get\+Backorder\+Cost (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+get cost of being in backorder \begin{DoxyReturn}{Returns}
+double -\/ backorder cost 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGame_aa4d5959a4edb54d944b93c83725229aa}\label{classGame_aa4d5959a4edb54d944b93c83725229aa}} 
+\index{Game@{Game}!get\+Current\+Week@{get\+Current\+Week}}
+\index{get\+Current\+Week@{get\+Current\+Week}!Game@{Game}}
+\subsubsection{\texorpdfstring{get\+Current\+Week()}{getCurrentWeek()}}
+{\footnotesize\ttfamily int Game\+::get\+Current\+Week (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+get current week in game \begin{DoxyReturn}{Returns}
+int -\/ current week 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGame_a13a42860435b979445a5e74b9ca4855a}\label{classGame_a13a42860435b979445a5e74b9ca4855a}} 
+\index{Game@{Game}!get\+G\+Id@{get\+G\+Id}}
+\index{get\+G\+Id@{get\+G\+Id}!Game@{Game}}
+\subsubsection{\texorpdfstring{get\+G\+Id()}{getGId()}}
+{\footnotesize\ttfamily int Game\+::get\+G\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+get game ID \begin{DoxyReturn}{Returns}
+int -\/ game ID 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGame_a0842aaa236062f2a9dd7e9d32f0be131}\label{classGame_a0842aaa236062f2a9dd7e9d32f0be131}} 
+\index{Game@{Game}!get\+Holding\+Cost@{get\+Holding\+Cost}}
+\index{get\+Holding\+Cost@{get\+Holding\+Cost}!Game@{Game}}
+\subsubsection{\texorpdfstring{get\+Holding\+Cost()}{getHoldingCost()}}
+{\footnotesize\ttfamily double Game\+::get\+Holding\+Cost (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+get cost of holding inventory \begin{DoxyReturn}{Returns}
+double -\/ holding cost 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGame_aafa386030ee084fe10699ec84316e689}\label{classGame_aafa386030ee084fe10699ec84316e689}} 
+\index{Game@{Game}!get\+Info\+Code@{get\+Info\+Code}}
+\index{get\+Info\+Code@{get\+Info\+Code}!Game@{Game}}
+\subsubsection{\texorpdfstring{get\+Info\+Code()}{getInfoCode()}}
+{\footnotesize\ttfamily int Game\+::get\+Info\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+get code for level of information sharing \begin{DoxyReturn}{Returns}
+int -\/ code for information sharing 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGame_a2fb39179e66606280c4d6408ffac0012}\label{classGame_a2fb39179e66606280c4d6408ffac0012}} 
+\index{Game@{Game}!get\+Instr\+Id@{get\+Instr\+Id}}
+\index{get\+Instr\+Id@{get\+Instr\+Id}!Game@{Game}}
+\subsubsection{\texorpdfstring{get\+Instr\+Id()}{getInstrId()}}
+{\footnotesize\ttfamily int Game\+::get\+Instr\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+get instructor ID that owns the game \begin{DoxyReturn}{Returns}
+int -\/ instructor ID 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGame_ab68ef87715311bea275bdac17342f2bd}\label{classGame_ab68ef87715311bea275bdac17342f2bd}} 
+\index{Game@{Game}!get\+Order\+Delay@{get\+Order\+Delay}}
+\index{get\+Order\+Delay@{get\+Order\+Delay}!Game@{Game}}
+\subsubsection{\texorpdfstring{get\+Order\+Delay()}{getOrderDelay()}}
+{\footnotesize\ttfamily int Game\+::get\+Order\+Delay (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+get delay between orders \begin{DoxyReturn}{Returns}
+int -\/ delay value 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGame_a7bb6c8a67ab9e3c0eb9b6c8892ce4084}\label{classGame_a7bb6c8a67ab9e3c0eb9b6c8892ce4084}} 
+\index{Game@{Game}!get\+Orders\+To\+Be\+Executed@{get\+Orders\+To\+Be\+Executed}}
+\index{get\+Orders\+To\+Be\+Executed@{get\+Orders\+To\+Be\+Executed}!Game@{Game}}
+\subsubsection{\texorpdfstring{get\+Orders\+To\+Be\+Executed()}{getOrdersToBeExecuted()}}
+{\footnotesize\ttfamily map$<$ int, \hyperlink{classOrder}{Order} $>$ Game\+::get\+Orders\+To\+Be\+Executed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+get map of orders to be executed \begin{DoxyReturn}{Returns}
+map$<$int, Order$>$ -\/ pending orders 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGame_ac33e4608fc0971b4280ab16fb7dafde4}\label{classGame_ac33e4608fc0971b4280ab16fb7dafde4}} 
+\index{Game@{Game}!get\+Order\+Time\+Delay@{get\+Order\+Time\+Delay}}
+\index{get\+Order\+Time\+Delay@{get\+Order\+Time\+Delay}!Game@{Game}}
+\subsubsection{\texorpdfstring{get\+Order\+Time\+Delay()}{getOrderTimeDelay()}}
+{\footnotesize\ttfamily int Game\+::get\+Order\+Time\+Delay (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+get delay between orders \begin{DoxyReturn}{Returns}
+int -\/ order delay 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGame_adfa63d3dd6455a8ba8530baf322c70c4}\label{classGame_adfa63d3dd6455a8ba8530baf322c70c4}} 
+\index{Game@{Game}!get\+P\+Distributor\+Id@{get\+P\+Distributor\+Id}}
+\index{get\+P\+Distributor\+Id@{get\+P\+Distributor\+Id}!Game@{Game}}
+\subsubsection{\texorpdfstring{get\+P\+Distributor\+Id()}{getPDistributorId()}}
+{\footnotesize\ttfamily int Game\+::get\+P\+Distributor\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+get player ID for distributor \begin{DoxyReturn}{Returns}
+int -\/ distributor ID 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGame_a39a79914de4376873a17d90e5c916b10}\label{classGame_a39a79914de4376873a17d90e5c916b10}} 
+\index{Game@{Game}!get\+P\+Fact\+Id@{get\+P\+Fact\+Id}}
+\index{get\+P\+Fact\+Id@{get\+P\+Fact\+Id}!Game@{Game}}
+\subsubsection{\texorpdfstring{get\+P\+Fact\+Id()}{getPFactId()}}
+{\footnotesize\ttfamily int Game\+::get\+P\+Fact\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+get player ID of factory \begin{DoxyReturn}{Returns}
+int -\/ factory ID 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGame_af6934f2c39a6c6c99519f6081b56d6b7}\label{classGame_af6934f2c39a6c6c99519f6081b56d6b7}} 
+\index{Game@{Game}!get\+P\+Wholesaler\+Id@{get\+P\+Wholesaler\+Id}}
+\index{get\+P\+Wholesaler\+Id@{get\+P\+Wholesaler\+Id}!Game@{Game}}
+\subsubsection{\texorpdfstring{get\+P\+Wholesaler\+Id()}{getPWholesalerId()}}
+{\footnotesize\ttfamily int Game\+::get\+P\+Wholesaler\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+get player ID for wholesaler \begin{DoxyReturn}{Returns}
+int -\/ wholesaler ID 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGame_add0239e447bd78f762a53f75da31f07e}\label{classGame_add0239e447bd78f762a53f75da31f07e}} 
+\index{Game@{Game}!get\+Retailer\+Id@{get\+Retailer\+Id}}
+\index{get\+Retailer\+Id@{get\+Retailer\+Id}!Game@{Game}}
+\subsubsection{\texorpdfstring{get\+Retailer\+Id()}{getRetailerId()}}
+{\footnotesize\ttfamily int Game\+::get\+Retailer\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+get player ID for retailer \begin{DoxyReturn}{Returns}
+int -\/ retailer ID 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGame_ab25852cc4c2df47382d33cfe3c2b55d0}\label{classGame_ab25852cc4c2df47382d33cfe3c2b55d0}} 
+\index{Game@{Game}!get\+Shipment\+Delay@{get\+Shipment\+Delay}}
+\index{get\+Shipment\+Delay@{get\+Shipment\+Delay}!Game@{Game}}
+\subsubsection{\texorpdfstring{get\+Shipment\+Delay()}{getShipmentDelay()}}
+{\footnotesize\ttfamily int Game\+::get\+Shipment\+Delay (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+get delay between shipments for the game \begin{DoxyReturn}{Returns}
+int -\/ shipment delay 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGame_aab794be46d7e7d8832ca6b5430cd61e2}\label{classGame_aab794be46d7e7d8832ca6b5430cd61e2}} 
+\index{Game@{Game}!get\+Starting\+Inventory@{get\+Starting\+Inventory}}
+\index{get\+Starting\+Inventory@{get\+Starting\+Inventory}!Game@{Game}}
+\subsubsection{\texorpdfstring{get\+Starting\+Inventory()}{getStartingInventory()}}
+{\footnotesize\ttfamily int Game\+::get\+Starting\+Inventory (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+get starting inventory for each player \begin{DoxyReturn}{Returns}
+int -\/ starting inventory 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGame_a3a9810e55fb1b4b5df6c887811c73885}\label{classGame_a3a9810e55fb1b4b5df6c887811c73885}} 
+\index{Game@{Game}!get\+Weeks\+To\+Be\+Played@{get\+Weeks\+To\+Be\+Played}}
+\index{get\+Weeks\+To\+Be\+Played@{get\+Weeks\+To\+Be\+Played}!Game@{Game}}
+\subsubsection{\texorpdfstring{get\+Weeks\+To\+Be\+Played()}{getWeeksToBePlayed()}}
+{\footnotesize\ttfamily int Game\+::get\+Weeks\+To\+Be\+Played (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+get max number of weeks to be played \begin{DoxyReturn}{Returns}
+int -\/ no of weeks 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGame_a7bed0fb500fa97a8b3a30420629a4c38}\label{classGame_a7bed0fb500fa97a8b3a30420629a4c38}} 
+\index{Game@{Game}!set\+Backorder@{set\+Backorder}}
+\index{set\+Backorder@{set\+Backorder}!Game@{Game}}
+\subsubsection{\texorpdfstring{set\+Backorder()}{setBackorder()}}
+{\footnotesize\ttfamily void Game\+::set\+Backorder (\begin{DoxyParamCaption}\item[{int}]{nbackorder }\end{DoxyParamCaption})}
+
+Set backorder on the current game 
+\begin{DoxyParams}{Parameters}
+{\em nbackorder} & new backorder \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGame_a23c5d1b710b8daa02fe623f709e1f62f}\label{classGame_a23c5d1b710b8daa02fe623f709e1f62f}} 
+\index{Game@{Game}!set\+Backorder\+Cost@{set\+Backorder\+Cost}}
+\index{set\+Backorder\+Cost@{set\+Backorder\+Cost}!Game@{Game}}
+\subsubsection{\texorpdfstring{set\+Backorder\+Cost()}{setBackorderCost()}}
+{\footnotesize\ttfamily void Game\+::set\+Backorder\+Cost (\begin{DoxyParamCaption}\item[{double}]{nbackorder\+Cost }\end{DoxyParamCaption})}
+
+Set cost of each backorder in the gamee 
+\begin{DoxyParams}{Parameters}
+{\em nbackorder\+Cost} & new cost of backorder \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGame_a894a4b2d874a67fd25b084adc8bf1bc9}\label{classGame_a894a4b2d874a67fd25b084adc8bf1bc9}} 
+\index{Game@{Game}!set\+Current\+Week@{set\+Current\+Week}}
+\index{set\+Current\+Week@{set\+Current\+Week}!Game@{Game}}
+\subsubsection{\texorpdfstring{set\+Current\+Week()}{setCurrentWeek()}}
+{\footnotesize\ttfamily void Game\+::set\+Current\+Week (\begin{DoxyParamCaption}\item[{int}]{ncurrent\+Week }\end{DoxyParamCaption})}
+
+set current week in the game 
+\begin{DoxyParams}{Parameters}
+{\em ncurrent\+Week} & new current week \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGame_a28f1e26b5927dcf6deaf9c7c2fa2d1d3}\label{classGame_a28f1e26b5927dcf6deaf9c7c2fa2d1d3}} 
+\index{Game@{Game}!set\+G\+Id@{set\+G\+Id}}
+\index{set\+G\+Id@{set\+G\+Id}!Game@{Game}}
+\subsubsection{\texorpdfstring{set\+G\+Id()}{setGId()}}
+{\footnotesize\ttfamily void Game\+::set\+G\+Id (\begin{DoxyParamCaption}\item[{int}]{ng\+ID }\end{DoxyParamCaption})}
+
+set \hyperlink{classGame}{Game} ID 
+\begin{DoxyParams}{Parameters}
+{\em ng\+ID} & the new game ID \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGame_a469b669f532f987678463cff63a3d872}\label{classGame_a469b669f532f987678463cff63a3d872}} 
+\index{Game@{Game}!set\+Holding\+Cost@{set\+Holding\+Cost}}
+\index{set\+Holding\+Cost@{set\+Holding\+Cost}!Game@{Game}}
+\subsubsection{\texorpdfstring{set\+Holding\+Cost()}{setHoldingCost()}}
+{\footnotesize\ttfamily void Game\+::set\+Holding\+Cost (\begin{DoxyParamCaption}\item[{double}]{nholding\+Cost }\end{DoxyParamCaption})}
+
+set cost of holding inventory 
+\begin{DoxyParams}{Parameters}
+{\em nholding\+Cost} & cost of holding inventory \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGame_a886bd4bd86fb77831438cc0b2acd5e96}\label{classGame_a886bd4bd86fb77831438cc0b2acd5e96}} 
+\index{Game@{Game}!set\+Info\+Code@{set\+Info\+Code}}
+\index{set\+Info\+Code@{set\+Info\+Code}!Game@{Game}}
+\subsubsection{\texorpdfstring{set\+Info\+Code()}{setInfoCode()}}
+{\footnotesize\ttfamily void Game\+::set\+Info\+Code (\begin{DoxyParamCaption}\item[{int}]{ninfo\+Code }\end{DoxyParamCaption})}
+
+Set the level of information sharing in the game 
+\begin{DoxyParams}{Parameters}
+{\em ninfo\+Code} & the code for the new level of information sharing. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGame_ab62c0ccec274f408c3584d353fd0da79}\label{classGame_ab62c0ccec274f408c3584d353fd0da79}} 
+\index{Game@{Game}!set\+Instr\+Id@{set\+Instr\+Id}}
+\index{set\+Instr\+Id@{set\+Instr\+Id}!Game@{Game}}
+\subsubsection{\texorpdfstring{set\+Instr\+Id()}{setInstrId()}}
+{\footnotesize\ttfamily void Game\+::set\+Instr\+Id (\begin{DoxyParamCaption}\item[{int}]{ni\+ID }\end{DoxyParamCaption})}
+
+set instructor ID 
+\begin{DoxyParams}{Parameters}
+{\em ni\+ID} & new instructor ID \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGame_a89df2f584b7ccfdf5c2367bd2ed85920}\label{classGame_a89df2f584b7ccfdf5c2367bd2ed85920}} 
+\index{Game@{Game}!set\+Order\+Delay@{set\+Order\+Delay}}
+\index{set\+Order\+Delay@{set\+Order\+Delay}!Game@{Game}}
+\subsubsection{\texorpdfstring{set\+Order\+Delay()}{setOrderDelay()}}
+{\footnotesize\ttfamily void Game\+::set\+Order\+Delay (\begin{DoxyParamCaption}\item[{int}]{new\+Order\+Delay }\end{DoxyParamCaption})}
+
+Set the delay, which is caused between placing orders. 
+\begin{DoxyParams}{Parameters}
+{\em new\+Order\+Delay} & Value of how much delay is caused. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGame_acf5b10b8b268b443600518240a1591b5}\label{classGame_acf5b10b8b268b443600518240a1591b5}} 
+\index{Game@{Game}!set\+Order\+Time\+Delay@{set\+Order\+Time\+Delay}}
+\index{set\+Order\+Time\+Delay@{set\+Order\+Time\+Delay}!Game@{Game}}
+\subsubsection{\texorpdfstring{set\+Order\+Time\+Delay()}{setOrderTimeDelay()}}
+{\footnotesize\ttfamily void Game\+::set\+Order\+Time\+Delay (\begin{DoxyParamCaption}\item[{int}]{ndelay }\end{DoxyParamCaption})}
+
+set delay between orders 
+\begin{DoxyParams}{Parameters}
+{\em ndelay} & the new delay \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGame_ad42bbcafead378b6fa33110dadf4c67b}\label{classGame_ad42bbcafead378b6fa33110dadf4c67b}} 
+\index{Game@{Game}!set\+P\+Distributor\+Id@{set\+P\+Distributor\+Id}}
+\index{set\+P\+Distributor\+Id@{set\+P\+Distributor\+Id}!Game@{Game}}
+\subsubsection{\texorpdfstring{set\+P\+Distributor\+Id()}{setPDistributorId()}}
+{\footnotesize\ttfamily void Game\+::set\+P\+Distributor\+Id (\begin{DoxyParamCaption}\item[{int}]{nd\+ID }\end{DoxyParamCaption})}
+
+set new distributor player ID 
+\begin{DoxyParams}{Parameters}
+{\em nd\+ID} & new distributor ID \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGame_a13be14dc30d9abffe0aecad59977dcdc}\label{classGame_a13be14dc30d9abffe0aecad59977dcdc}} 
+\index{Game@{Game}!set\+P\+Fact\+Id@{set\+P\+Fact\+Id}}
+\index{set\+P\+Fact\+Id@{set\+P\+Fact\+Id}!Game@{Game}}
+\subsubsection{\texorpdfstring{set\+P\+Fact\+Id()}{setPFactId()}}
+{\footnotesize\ttfamily void Game\+::set\+P\+Fact\+Id (\begin{DoxyParamCaption}\item[{int}]{nf\+ID }\end{DoxyParamCaption})}
+
+set factory player\textquotesingle{}s ID 
+\begin{DoxyParams}{Parameters}
+{\em nf\+ID} & new factory ID \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGame_a6cfdb34ff66e98c193dfc918a961ce66}\label{classGame_a6cfdb34ff66e98c193dfc918a961ce66}} 
+\index{Game@{Game}!set\+P\+Wholesaler\+Id@{set\+P\+Wholesaler\+Id}}
+\index{set\+P\+Wholesaler\+Id@{set\+P\+Wholesaler\+Id}!Game@{Game}}
+\subsubsection{\texorpdfstring{set\+P\+Wholesaler\+Id()}{setPWholesalerId()}}
+{\footnotesize\ttfamily void Game\+::set\+P\+Wholesaler\+Id (\begin{DoxyParamCaption}\item[{int}]{nw\+ID }\end{DoxyParamCaption})}
+
+set wholesaler\textquotesingle{}s player ID 
+\begin{DoxyParams}{Parameters}
+{\em nw\+ID} & new wholesaler ID \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGame_a33ada7d6482601e8f5c2d16731b6ac10}\label{classGame_a33ada7d6482601e8f5c2d16731b6ac10}} 
+\index{Game@{Game}!set\+Retailer\+Id@{set\+Retailer\+Id}}
+\index{set\+Retailer\+Id@{set\+Retailer\+Id}!Game@{Game}}
+\subsubsection{\texorpdfstring{set\+Retailer\+Id()}{setRetailerId()}}
+{\footnotesize\ttfamily void Game\+::set\+Retailer\+Id (\begin{DoxyParamCaption}\item[{int}]{nr\+ID }\end{DoxyParamCaption})}
+
+set retailer\textquotesingle{}s player ID 
+\begin{DoxyParams}{Parameters}
+{\em nr\+ID} & new retailer ID \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGame_a8c475daf7cf7752185ad5da98907c9ca}\label{classGame_a8c475daf7cf7752185ad5da98907c9ca}} 
+\index{Game@{Game}!set\+Shipment\+Delay@{set\+Shipment\+Delay}}
+\index{set\+Shipment\+Delay@{set\+Shipment\+Delay}!Game@{Game}}
+\subsubsection{\texorpdfstring{set\+Shipment\+Delay()}{setShipmentDelay()}}
+{\footnotesize\ttfamily void Game\+::set\+Shipment\+Delay (\begin{DoxyParamCaption}\item[{int}]{new\+Shipment\+Delay }\end{DoxyParamCaption})}
+
+Set the delay, which is caused between shipping orders. 
+\begin{DoxyParams}{Parameters}
+{\em new\+Shipment\+Delay} & Value of how much delay is caused. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGame_acab161e982ecf8ab7b3bfb8d4927b89d}\label{classGame_acab161e982ecf8ab7b3bfb8d4927b89d}} 
+\index{Game@{Game}!set\+Starting\+Inventory@{set\+Starting\+Inventory}}
+\index{set\+Starting\+Inventory@{set\+Starting\+Inventory}!Game@{Game}}
+\subsubsection{\texorpdfstring{set\+Starting\+Inventory()}{setStartingInventory()}}
+{\footnotesize\ttfamily void Game\+::set\+Starting\+Inventory (\begin{DoxyParamCaption}\item[{int}]{nstarting\+Inventory }\end{DoxyParamCaption})}
+
+Set the starting inventory level 
+\begin{DoxyParams}{Parameters}
+{\em nstarting\+Inventory} & the new starting inventory \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGame_a3979fb5baa71d71baf0070a4d3867cb1}\label{classGame_a3979fb5baa71d71baf0070a4d3867cb1}} 
+\index{Game@{Game}!setweeks\+To\+Be\+Played@{setweeks\+To\+Be\+Played}}
+\index{setweeks\+To\+Be\+Played@{setweeks\+To\+Be\+Played}!Game@{Game}}
+\subsubsection{\texorpdfstring{setweeks\+To\+Be\+Played()}{setweeksToBePlayed()}}
+{\footnotesize\ttfamily void Game\+::setweeks\+To\+Be\+Played (\begin{DoxyParamCaption}\item[{int}]{nweeks\+To\+Be\+Played }\end{DoxyParamCaption})}
+
+Set number of weeks the game will be played 
+\begin{DoxyParams}{Parameters}
+{\em nweeks\+To\+Be\+Played} & the number of weeks to play \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Game.\+h\item 
+src/Game.\+cpp\end{DoxyCompactItemize}

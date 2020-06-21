@@ -1,0 +1,256 @@
+\hypertarget{classPlayer}{}\section{Player Class Reference}
+\label{classPlayer}\index{Player@{Player}}
+
+
+{\ttfamily \#include $<$Player.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classPlayer_affe0cc3cb714f6deb4e62f0c0d3f1fd8}{Player} ()
+\item 
+void \hyperlink{classPlayer_a44d67418e9628bcebb094cb08d2b8645}{order} (int number\+Of\+Beers, \hyperlink{classPlayer}{Player} \&from)
+\item 
+void \hyperlink{classPlayer_a99b3fcf7fa83e14419716b090892d6c8}{ship} (int number\+Of\+Beers, \hyperlink{classPlayer}{Player} \&to)
+\item 
+int \hyperlink{classPlayer_ad7e72eebf5097d94027610f80ca0cb78}{decrease\+Inventory} (int num\+Of\+Beers)
+\item 
+int \hyperlink{classPlayer_af56bd09888271421534c020d51fde332}{increase\+Inventory} (int num\+Of\+Beers)
+\item 
+bool \hyperlink{classPlayer_aba9c1a26d978924957526ec5652702a6}{recieve\+Shipment} (int order\+Id)
+\item 
+void \hyperlink{classPlayer_a17e0bd230257e3026226e46a4ab4dc11}{set\+P\+Id} (int new\+P\+Id)
+\item 
+void \hyperlink{classPlayer_ad15e1ac6cf80b1492d69a37d7cfb7372}{set\+Role} (int new\+Role)
+\item 
+void \hyperlink{classPlayer_a1f305ca526f8d5665fc3778cfdd10af1}{set\+Inventory} (int new\+Inventory)
+\item 
+void \hyperlink{classPlayer_a137d9597bcb0f47168cf1527cb07625a}{set\+Backorder} (int new\+Backorder)
+\item 
+void \hyperlink{classPlayer_adfe98f17f78bb7a89baee1c34ee09c75}{set\+Cost} (float new\+Cost)
+\item 
+void \hyperlink{classPlayer_a8823e72be11b1ab41620eafedf1a28e3}{set\+Order\+Placed} (int new\+Order\+Placed)
+\item 
+void \hyperlink{classPlayer_a8dc0985588eeb8785a6cda41dfc496a9}{set\+Demand} (int new\+Demand)
+\item 
+int \hyperlink{classPlayer_ad815840dfa1c1261900774b5ffd886e3}{get\+P\+Id} ()
+\item 
+int \hyperlink{classPlayer_a6baeff2a6218449299cb334c01f1dc28}{get\+Role} ()
+\item 
+int \hyperlink{classPlayer_a8080e44c26141d956babb824d2a7ae7c}{get\+Backorder} ()
+\item 
+float \hyperlink{classPlayer_a0fd8247cc0326d8df1051bd83928cf2c}{get\+Cost} ()
+\item 
+int \hyperlink{classPlayer_ae21d65a545c20c70ac7a53389b223ce6}{get\+Inventory} ()
+\item 
+int \hyperlink{classPlayer_a8bfca991628b682ff9cae6d05ee9131c}{get\+Demand} ()
+\item 
+int \hyperlink{classPlayer_af838b44639ee94d4185917d5d2259ce2}{get\+Order\+Placed} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class represents one of the four possible players\+: Manufacturer, Distributor, Wholesaler, or Retailer.
+
+\begin{DoxyAuthor}{Author}
+nhammad 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+17.\+03.\+2020 
+\end{DoxyDate}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classPlayer_affe0cc3cb714f6deb4e62f0c0d3f1fd8}\label{classPlayer_affe0cc3cb714f6deb4e62f0c0d3f1fd8}} 
+\index{Player@{Player}!Player@{Player}}
+\index{Player@{Player}!Player@{Player}}
+\subsubsection{\texorpdfstring{Player()}{Player()}}
+{\footnotesize\ttfamily Player\+::\+Player (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Default Constructor to initialize a \hyperlink{classPlayer}{Player} with default values for inventory, backorder, demand, and cost. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classPlayer_ad7e72eebf5097d94027610f80ca0cb78}\label{classPlayer_ad7e72eebf5097d94027610f80ca0cb78}} 
+\index{Player@{Player}!decrease\+Inventory@{decrease\+Inventory}}
+\index{decrease\+Inventory@{decrease\+Inventory}!Player@{Player}}
+\subsubsection{\texorpdfstring{decrease\+Inventory()}{decreaseInventory()}}
+{\footnotesize\ttfamily int Player\+::decrease\+Inventory (\begin{DoxyParamCaption}\item[{int}]{num\+Of\+Beers }\end{DoxyParamCaption})}
+
+Decrease number of beers present in the inventory currently. Used in other methods like .\hyperlink{classPlayer_a44d67418e9628bcebb094cb08d2b8645}{order()} and .\hyperlink{classPlayer_a99b3fcf7fa83e14419716b090892d6c8}{ship()}. 
+\begin{DoxyParams}{Parameters}
+{\em num\+Of\+Beers} & Number of beers that are to be subtracted from the inventory. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPlayer_a8080e44c26141d956babb824d2a7ae7c}\label{classPlayer_a8080e44c26141d956babb824d2a7ae7c}} 
+\index{Player@{Player}!get\+Backorder@{get\+Backorder}}
+\index{get\+Backorder@{get\+Backorder}!Player@{Player}}
+\subsubsection{\texorpdfstring{get\+Backorder()}{getBackorder()}}
+{\footnotesize\ttfamily int Player\+::get\+Backorder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the value of current backorder of a player. \mbox{\Hypertarget{classPlayer_a0fd8247cc0326d8df1051bd83928cf2c}\label{classPlayer_a0fd8247cc0326d8df1051bd83928cf2c}} 
+\index{Player@{Player}!get\+Cost@{get\+Cost}}
+\index{get\+Cost@{get\+Cost}!Player@{Player}}
+\subsubsection{\texorpdfstring{get\+Cost()}{getCost()}}
+{\footnotesize\ttfamily float Player\+::get\+Cost (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the value of current cost of a player. \mbox{\Hypertarget{classPlayer_a8bfca991628b682ff9cae6d05ee9131c}\label{classPlayer_a8bfca991628b682ff9cae6d05ee9131c}} 
+\index{Player@{Player}!get\+Demand@{get\+Demand}}
+\index{get\+Demand@{get\+Demand}!Player@{Player}}
+\subsubsection{\texorpdfstring{get\+Demand()}{getDemand()}}
+{\footnotesize\ttfamily int Player\+::get\+Demand (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the value of beer demand for each player. \mbox{\Hypertarget{classPlayer_ae21d65a545c20c70ac7a53389b223ce6}\label{classPlayer_ae21d65a545c20c70ac7a53389b223ce6}} 
+\index{Player@{Player}!get\+Inventory@{get\+Inventory}}
+\index{get\+Inventory@{get\+Inventory}!Player@{Player}}
+\subsubsection{\texorpdfstring{get\+Inventory()}{getInventory()}}
+{\footnotesize\ttfamily int Player\+::get\+Inventory (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the amount of beer units currently present in player\textquotesingle{}s inventory. \mbox{\Hypertarget{classPlayer_af838b44639ee94d4185917d5d2259ce2}\label{classPlayer_af838b44639ee94d4185917d5d2259ce2}} 
+\index{Player@{Player}!get\+Order\+Placed@{get\+Order\+Placed}}
+\index{get\+Order\+Placed@{get\+Order\+Placed}!Player@{Player}}
+\subsubsection{\texorpdfstring{get\+Order\+Placed()}{getOrderPlaced()}}
+{\footnotesize\ttfamily int Player\+::get\+Order\+Placed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the value of beer units ordered by the player. \mbox{\Hypertarget{classPlayer_ad815840dfa1c1261900774b5ffd886e3}\label{classPlayer_ad815840dfa1c1261900774b5ffd886e3}} 
+\index{Player@{Player}!get\+P\+Id@{get\+P\+Id}}
+\index{get\+P\+Id@{get\+P\+Id}!Player@{Player}}
+\subsubsection{\texorpdfstring{get\+P\+Id()}{getPId()}}
+{\footnotesize\ttfamily int Player\+::get\+P\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the \hyperlink{classPlayer}{Player} Id. \mbox{\Hypertarget{classPlayer_a6baeff2a6218449299cb334c01f1dc28}\label{classPlayer_a6baeff2a6218449299cb334c01f1dc28}} 
+\index{Player@{Player}!get\+Role@{get\+Role}}
+\index{get\+Role@{get\+Role}!Player@{Player}}
+\subsubsection{\texorpdfstring{get\+Role()}{getRole()}}
+{\footnotesize\ttfamily int Player\+::get\+Role (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Returns the \hyperlink{classPlayer}{Player} role (eg\+: Retailer, Manufacturer, Wholesaler or Distributor). \mbox{\Hypertarget{classPlayer_af56bd09888271421534c020d51fde332}\label{classPlayer_af56bd09888271421534c020d51fde332}} 
+\index{Player@{Player}!increase\+Inventory@{increase\+Inventory}}
+\index{increase\+Inventory@{increase\+Inventory}!Player@{Player}}
+\subsubsection{\texorpdfstring{increase\+Inventory()}{increaseInventory()}}
+{\footnotesize\ttfamily int Player\+::increase\+Inventory (\begin{DoxyParamCaption}\item[{int}]{num\+Of\+Beers }\end{DoxyParamCaption})}
+
+Increase number of beers present in the inventory currently. 
+\begin{DoxyParams}{Parameters}
+{\em num\+Of\+Beers} & Number of beers that are to be added in the inventory. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPlayer_a44d67418e9628bcebb094cb08d2b8645}\label{classPlayer_a44d67418e9628bcebb094cb08d2b8645}} 
+\index{Player@{Player}!order@{order}}
+\index{order@{order}!Player@{Player}}
+\subsubsection{\texorpdfstring{order()}{order()}}
+{\footnotesize\ttfamily void Player\+::order (\begin{DoxyParamCaption}\item[{int}]{number\+Of\+Beers,  }\item[{\hyperlink{classPlayer}{Player} \&}]{from }\end{DoxyParamCaption})}
+
+\hyperlink{classOrder}{Order} beers from another player and add them into own inventory. 
+\begin{DoxyParams}{Parameters}
+{\em number\+Of\+Beers} & Number of beers that are ordered by the player \\
+\hline
+{\em from} & The \hyperlink{classPlayer}{Player} who has to deliver the order \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPlayer_aba9c1a26d978924957526ec5652702a6}\label{classPlayer_aba9c1a26d978924957526ec5652702a6}} 
+\index{Player@{Player}!recieve\+Shipment@{recieve\+Shipment}}
+\index{recieve\+Shipment@{recieve\+Shipment}!Player@{Player}}
+\subsubsection{\texorpdfstring{recieve\+Shipment()}{recieveShipment()}}
+{\footnotesize\ttfamily bool Player\+::recieve\+Shipment (\begin{DoxyParamCaption}\item[{int}]{order\+Id }\end{DoxyParamCaption})}
+
+Recieves Shipment of the placed order and adds into the inventory. 
+\begin{DoxyParams}{Parameters}
+{\em order\+Id} & Id of the \hyperlink{classOrder}{Order} Placed for which shipment is to be recieved. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPlayer_a137d9597bcb0f47168cf1527cb07625a}\label{classPlayer_a137d9597bcb0f47168cf1527cb07625a}} 
+\index{Player@{Player}!set\+Backorder@{set\+Backorder}}
+\index{set\+Backorder@{set\+Backorder}!Player@{Player}}
+\subsubsection{\texorpdfstring{set\+Backorder()}{setBackorder()}}
+{\footnotesize\ttfamily void Player\+::set\+Backorder (\begin{DoxyParamCaption}\item[{int}]{new\+Backorder }\end{DoxyParamCaption})}
+
+Set the backorder value, which indicates how much a player is lagging behind. 
+\begin{DoxyParams}{Parameters}
+{\em new\+Backorder} & Value of backorder. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPlayer_adfe98f17f78bb7a89baee1c34ee09c75}\label{classPlayer_adfe98f17f78bb7a89baee1c34ee09c75}} 
+\index{Player@{Player}!set\+Cost@{set\+Cost}}
+\index{set\+Cost@{set\+Cost}!Player@{Player}}
+\subsubsection{\texorpdfstring{set\+Cost()}{setCost()}}
+{\footnotesize\ttfamily void Player\+::set\+Cost (\begin{DoxyParamCaption}\item[{float}]{new\+Cost }\end{DoxyParamCaption})}
+
+Set a value for the cost of each beer unit. 
+\begin{DoxyParams}{Parameters}
+{\em new\+Cost} & Cost set for each unit. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPlayer_a8dc0985588eeb8785a6cda41dfc496a9}\label{classPlayer_a8dc0985588eeb8785a6cda41dfc496a9}} 
+\index{Player@{Player}!set\+Demand@{set\+Demand}}
+\index{set\+Demand@{set\+Demand}!Player@{Player}}
+\subsubsection{\texorpdfstring{set\+Demand()}{setDemand()}}
+{\footnotesize\ttfamily void Player\+::set\+Demand (\begin{DoxyParamCaption}\item[{int}]{new\+Demand }\end{DoxyParamCaption})}
+
+Set the value for demand i.\+e how much beer is still needed. 
+\begin{DoxyParams}{Parameters}
+{\em new\+Demand} & Number of beer units that are still needed. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPlayer_a1f305ca526f8d5665fc3778cfdd10af1}\label{classPlayer_a1f305ca526f8d5665fc3778cfdd10af1}} 
+\index{Player@{Player}!set\+Inventory@{set\+Inventory}}
+\index{set\+Inventory@{set\+Inventory}!Player@{Player}}
+\subsubsection{\texorpdfstring{set\+Inventory()}{setInventory()}}
+{\footnotesize\ttfamily void Player\+::set\+Inventory (\begin{DoxyParamCaption}\item[{int}]{new\+Inventory }\end{DoxyParamCaption})}
+
+Set a value for how many beers are present in the inventory. 
+\begin{DoxyParams}{Parameters}
+{\em new\+Inventory} & Number of beers that are present in the inventory. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPlayer_a8823e72be11b1ab41620eafedf1a28e3}\label{classPlayer_a8823e72be11b1ab41620eafedf1a28e3}} 
+\index{Player@{Player}!set\+Order\+Placed@{set\+Order\+Placed}}
+\index{set\+Order\+Placed@{set\+Order\+Placed}!Player@{Player}}
+\subsubsection{\texorpdfstring{set\+Order\+Placed()}{setOrderPlaced()}}
+{\footnotesize\ttfamily void Player\+::set\+Order\+Placed (\begin{DoxyParamCaption}\item[{int}]{new\+Order\+Placed }\end{DoxyParamCaption})}
+
+Set the quantity of beer units which are to be ordered. 
+\begin{DoxyParams}{Parameters}
+{\em new\+Order\+Placed} & Quantity of beer units to be ordered. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPlayer_a17e0bd230257e3026226e46a4ab4dc11}\label{classPlayer_a17e0bd230257e3026226e46a4ab4dc11}} 
+\index{Player@{Player}!set\+P\+Id@{set\+P\+Id}}
+\index{set\+P\+Id@{set\+P\+Id}!Player@{Player}}
+\subsubsection{\texorpdfstring{set\+P\+Id()}{setPId()}}
+{\footnotesize\ttfamily void Player\+::set\+P\+Id (\begin{DoxyParamCaption}\item[{int}]{new\+P\+Id }\end{DoxyParamCaption})}
+
+Set an ID value to distinuguish between players . 
+\begin{DoxyParams}{Parameters}
+{\em new\+P\+Id} & Id assigned to a player. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPlayer_ad15e1ac6cf80b1492d69a37d7cfb7372}\label{classPlayer_ad15e1ac6cf80b1492d69a37d7cfb7372}} 
+\index{Player@{Player}!set\+Role@{set\+Role}}
+\index{set\+Role@{set\+Role}!Player@{Player}}
+\subsubsection{\texorpdfstring{set\+Role()}{setRole()}}
+{\footnotesize\ttfamily void Player\+::set\+Role (\begin{DoxyParamCaption}\item[{int}]{new\+Role }\end{DoxyParamCaption})}
+
+Set a \hyperlink{classRole}{Role} to distinuguish between players. It could be Manufacturer, Distributor, Wholesaler, or Retailer. 
+\begin{DoxyParams}{Parameters}
+{\em new\+Role} & \hyperlink{classRole}{Role} of the player. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classPlayer_a99b3fcf7fa83e14419716b090892d6c8}\label{classPlayer_a99b3fcf7fa83e14419716b090892d6c8}} 
+\index{Player@{Player}!ship@{ship}}
+\index{ship@{ship}!Player@{Player}}
+\subsubsection{\texorpdfstring{ship()}{ship()}}
+{\footnotesize\ttfamily void Player\+::ship (\begin{DoxyParamCaption}\item[{int}]{number\+Of\+Beers,  }\item[{\hyperlink{classPlayer}{Player} \&}]{to }\end{DoxyParamCaption})}
+
+Ship beers from own inventory to another player\textquotesingle{}s inventory. 
+\begin{DoxyParams}{Parameters}
+{\em number\+Of\+Beers} & Number of beers that are to be shipped to another player. \\
+\hline
+{\em to} & The \hyperlink{classPlayer}{Player} who will receive the shipment \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Player.\+h\item 
+src/Player.\+cpp\end{DoxyCompactItemize}

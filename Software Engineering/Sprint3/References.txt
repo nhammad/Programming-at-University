@@ -1,0 +1,40 @@
+{
+    "online-references":
+    [
+        {
+            "url": "https://www.jetbrains.com/help/clion/creating-google-test-run-debug-configuration-for-test.html",
+            "contribution": "Set up Google Test",
+            "file": "Google_tests/CMakeLists.txt"
+        },
+        {
+            "url": "https://stackoverflow.com/questions/440133/how-do-i-create-a-random-alpha-numeric-string-in-c",
+            "contribution": "Set up Google Test",
+            "file": "Game.cpp"
+        },
+        {
+            "url": "https://flcwiki.desy.de/How%20to%20document%20your%20code%20using%20doxygen",
+            "contribution": "Doxygen Documentation",
+            "file": "Doxyfile"
+        },
+        {
+            "url": "https://developer.ibm.com/articles/au-googletestingframework/",
+            "contribution": "Usage of Google Testing Framework",
+            "file": "tests-mainfunctionality-v2.cpp"
+        },
+        {
+            "url": "https://vicrucann.github.io/tutorials/quick-cmake-doxygen/",
+            "contribution": "CMake for Doxygen",
+            "file": "CMakeLists.txt"
+        },
+        {
+            "url": "https://github.com/github/gitignore/blob/master/Qt.gitignore",
+            "contribution": "Gitignore for Qt",
+            "file": "gitignore"
+        },
+        {
+            "url": "https://github.com/doxygen/doxygen/blob/master/.gitignore",
+            "contribution": "Gitignore for Doxygen",
+            "file": "gitignore"
+        }
+    ]
+}

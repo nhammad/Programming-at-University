@@ -1,0 +1,31 @@
+{
+	"online-references": [{
+			"url": "https://www.eriksmistad.no/getting-started-with-google-test-on-ubuntu/",
+			"contribution": "Implementation of CMake File",
+			"file": "CMakeFile.txt"
+		},
+		{
+			"title": "https://flcwiki.desy.de/How%20to%20document%20your%20code%20using%20doxygen",
+			"contribution": "Configuration File For Doxygen",
+			"file": "config-file"
+		},
+		{
+			"title": "https://www.youtube.com/watch?v=Y1c-ieVO-UY",
+			"contribution": "GUI Widgets",
+			"file": "mainwindow.ui"
+		},
+		{
+			"title": "https://www.pngkey.com/detail/u2e6r5e6a9u2e6y3_logo-people-png/",
+			"contribution": "Logo for Players",
+			"file": "role.ui"
+		},
+		{
+			"title": "https://dribbble.com/shots/6580676-Fun-minimal-logo-design-Game-a-Beer",
+			"contribution": "Logo",
+			"file": "role.ui"
+		}
+	]
+}
+
+
+
