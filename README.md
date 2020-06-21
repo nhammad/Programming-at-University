@@ -3,13 +3,13 @@
 This repository contains sample solutions and other learning materials for some of my university courses. Of course, over time I have learnt to write cleaner code.
 
 
-**C Programming (1st Semester)**
+*** C Programming**
 
-**Avanced C Programming (2nd Semester)**
+*** Avanced C Programming**
 
-**C++ Object Oriented Programming and STL (2nd Semester)**
+*** C++ Object Oriented Programming and STL**
 
-**Python Programming (Voluntary course with no credits)**
+*** Python(voluntary course with no credits)**
 
 
 
