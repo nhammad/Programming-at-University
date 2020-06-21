@@ -1,6 +1,6 @@
 /**
 * \class Game
-* \author Dorrab Khan 
+* \author dorab 
 * \date 17.03.2020
 */
 

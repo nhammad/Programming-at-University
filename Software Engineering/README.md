@@ -9,5 +9,6 @@ This repository contains code-bases for the Beer Game I built during my Software
 - Google Tests for unit testing
 - Doxygen for documentation
 - lcov for test coverage
+- MySQL for databases
 
 Other known contributors: Subid, Diggy, Dorab, Mukhammad
