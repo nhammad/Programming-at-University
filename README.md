@@ -9,7 +9,7 @@ This repository contains sample solutions and other learning materials for some 
 
 * C++ Object Oriented Programming and STL
 
-* *Python(voluntary course with no credits)
+* Python (voluntary course with no credits)
 
 
 
