@@ -11,6 +11,9 @@ This repository contains sample solutions and other learning materials for some 
 
 * Python (voluntary course with no credits)
 
+* Computer Graphics
+
+* Software Engineering
 
 
 Unfortunately, my university has been quite a waste of time, energy, and money. I would be happy to discuss my educational experience in detail with anyone who is interested. 
