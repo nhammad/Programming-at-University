@@ -15,5 +15,8 @@ This repository contains sample solutions and other learning materials for some 
 
 * Software Engineering
 
+* Computer Networks
 
-Unfortunately, my university has been quite a waste of time, energy, and money. I would be happy to discuss my educational experience in detail with anyone who is interested. 
+* Computer Vision
+
+Enrolling in a university to study Computer Science was a mere formality. 
