@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC   -shared -Wl,-soname,liblower.so -o liblower.so CMakeFiles/lower.dir/lower.c.o 

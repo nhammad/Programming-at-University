@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC   -shared -Wl,-soname,librot13.so -o librot13.so CMakeFiles/rot13.dir/rot13.c.o 

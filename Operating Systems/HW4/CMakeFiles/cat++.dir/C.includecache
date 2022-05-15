@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hammad/OS/HW4/cat++.c
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+unistd.h
+-
+dlfcn.h
+-
+

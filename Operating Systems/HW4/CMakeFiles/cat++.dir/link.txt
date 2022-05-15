@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/cat++.dir/cat++.c.o  -o cat++ -ldl 

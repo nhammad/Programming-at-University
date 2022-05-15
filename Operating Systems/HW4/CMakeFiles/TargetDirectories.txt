@@ -1,0 +1,6 @@
+/home/hammad/OS/HW4/CMakeFiles/edit_cache.dir
+/home/hammad/OS/HW4/CMakeFiles/lower.dir
+/home/hammad/OS/HW4/CMakeFiles/rebuild_cache.dir
+/home/hammad/OS/HW4/CMakeFiles/upper.dir
+/home/hammad/OS/HW4/CMakeFiles/cat++.dir
+/home/hammad/OS/HW4/CMakeFiles/rot13.dir
